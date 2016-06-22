@@ -1,0 +1,33 @@
+.imgSelect-container,
+.imgSelect-upload,
+.imgSelect-webcam,
+.imgSelect-alert,
+.imgSelect-actions,
+.imgSelect-actions .new-snap,
+.imgSelect-actions .capture {
+	display: none;
+}
+.imgSelect-container,
+.imgSelect-alert {
+	margin-top: 0px;
+}
+.imgSelect-alert {
+	margin-bottom: 10px;
+    padding: 20px;
+}
+.imgSelect-upload,
+.imgSelect-webcam {
+	margin-bottom: 10px;
+}
+.imgSelect-container img {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-webkit-box-shadow: 0 0px 0px #CCC;
+	-moz-box-shadow: 0 0px 0px #ccc;
+	box-shadow: 0 0px 0px #ccc;
+}
+.imgSelect-webcam .capture {
+	position: absolute;
+	margin-top: -33px;
+}
