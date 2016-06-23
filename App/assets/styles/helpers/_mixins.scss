@@ -1,0 +1,183 @@
+/*
+-----------------------
+Maintain Ratio Mixin
+Keeps the ratio of a container during window resizes
+USAGE:
+    div {
+        /* Keeps the container square
+        @include maintain-ratio($ratio: 1 1);
+    }
+*/
+@mixin maintain-ratio($ratio: 1 1) {
+    @if length($ratio) < 2 or length($ratio) > 2 {
+        @warn "$ratio must be a list with two values.";
+    }
+    $width: 100%;
+    $height: percentage(nth($ratio, 2) / nth($ratio, 1));
+    width: $width;
+    height: 0;
+    padding-bottom: $height;
+}
+@mixin clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        content: ' ';
+        display: table;
+    }
+    &:after {
+        clear: both; 
+    }
+}
+@mixin vertical-middle {
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+    &:before {
+        content: '';
+        height: 100%; 
+        display: inline-block;
+        vertical-align: middle;
+    }
+    & > * {
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+    }
+}
+@mixin no-select {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+/*
+-----------------------
+Flexbox compatibility mixins
+*/
+@mixin flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+@mixin justify-content($justify) {
+    -webkit-box-pack: $justify;
+    -webkit-justify-content: $justify;
+    -ms-flex-pack: $justify;
+    justify-content: $justify;
+}
+@mixin align-items($align) {
+    -webkit-box-align: $align;
+    -webkit-align-items: $align;
+    -ms-flex-align: $align;
+    align-items: $align;
+}
+/* end flexbox mixins */
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+/*
+-----------------------
+Calc Mixin
+
+USAGE:
+    .example {
+        @include calc(width, "25% - 1em");
+    }
+*/
+@mixin calc($property, $expression) {
+    #{$property}: -webkit-calc(#{$expression});
+    #{$property}: -moz-calc(#{$expression});
+    #{$property}: calc(#{$expression});
+}
+/* end calc mixin */
+
+/*
+-----------------------
+Animation Mixin
+USAGE:
+    @include keyframes(slide-down) {
+        0% { opacity: 1; }
+        90% { opacity: 0; }
+    }
+    .element {
+        width: 100px;
+        height: 100px;
+        background: black;
+        @include animation('slide-down 5s 3');
+    }
+*/
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+@mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};      
+}
+/* end animation mixin */
+@mixin appearance($str) {
+	appearance: #{$str};
+	-moz-appearance: #{$str};
+	-webkit-appearance: #{$str};
+}
+/*
+-----------------------
+Font-size Mixin
+Calculates REM sizes and defaults to px on fail
+USAGE:
+    p {
+        @include font-size(14px)
+    }
+*/
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return $remSize * 1rem;
+}
+@mixin font--size($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
+	line-height: 1;
+}
+/* end font-size mixin */
+/*
+-----------------------
+Font Mixins
+*/
+@mixin font__title {
+	font-family: $font__feature;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+@mixin font__content {
+	font-family: $font__primary;
+}
+/* end font mixins */

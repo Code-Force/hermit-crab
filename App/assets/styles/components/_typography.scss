@@ -1,0 +1,30 @@
+/* Components - Typography */
+h1,h2,h3,h4,h5,h6 {
+	@include font__title;
+}
+body,p,span {
+	@include font__content; 
+}
+h1 {
+	@include font--size(35px);
+}
+h2 {
+	@include font--size(28px);
+}
+h3 {
+	@include font--size(22px);
+}
+strong,b {
+	font-weight: 700;
+}
+em,i {
+	font-style: italic;
+}
+sup { 
+	vertical-align: super;
+	font-size: smaller;
+}
+sub { 
+	vertical-align: sub;
+	font-size: smaller;
+}

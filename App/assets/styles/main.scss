@@ -10,11 +10,12 @@
 @import 'helpers/_mixins.scss';
 @import 'helpers/_helpers.scss';
 
+/* Components */
+@import 'components/_typography.scss';
+
 /* Themes */
 @import 'themes/_admin.scss';
 @import 'themes/_theme.scss';
-
-/* Components */
 
 /* Layout */
 
