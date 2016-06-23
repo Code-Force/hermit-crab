@@ -1,6 +1,9 @@
 <?php
 class Pages extends CI_Controller {
-
+    function index()
+    {
+        $this->load->view('pages/home.php');
+    }
     public function view($page = 'home')
     {
         if ( ! file_exists(APPPATH.'views/pages/'.$page.'.php'))
