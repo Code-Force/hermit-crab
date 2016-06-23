@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Travelled Writers</title>
 	
 	<!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Rasa:400,700" rel="stylesheet">
 	<!-- end fonts -->
 	
 	<!-- stylesheet -->
@@ -22,7 +22,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="<?= base_url(); ?>assets/scripts/vendors/head.min.js"></script>
 	<script>
 		head.load(
-			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' }
+			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' },
+			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js'}
 		);
 	</script>
 	<!-- end scripts -->
