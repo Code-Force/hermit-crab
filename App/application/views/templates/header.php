@@ -15,11 +15,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- end fonts -->
 	
 	<!-- stylesheet -->
-	<link href="<?= base_url(); ?>styles/main.css" rel="stylesheet">
+	<link href="<?= base_url(); ?>assets/styles/main.css" rel="stylesheet">
 	<!-- end stylesheet -->
 	
 	<!-- scripts -->
-	<script src="<?php echo base_url('js/head.min.js');?>"></script>
+	<script src="<?= base_url(); ?>assets/scripts/vendors/head.min.js"></script>
 	<script>
 		head.load(
 			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' }
