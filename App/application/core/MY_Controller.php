@@ -5,9 +5,25 @@ class MY_Controller extends CI_Controller
     {
         parent::__construct();
         $this->load->library('session');
-
+        $session_data = $this->session->userdata('logged_in');
     }
-    function incrementalHash($len = 10){
+    function oneRecordArrayFormat($array) {
+        $array = $array[0];
+        return $array;
+    }
+    function sessionSetup() {
+        return $this->session->userdata('logged_in');
+    }
+    function objectToArray($d) {
+        if (is_object($d)) {
+            // Gets the properties of the given object
+            // with get_object_vars function
+            $d = get_object_vars($d);
+        }
+
+        return $d;
+    }
+   /* function incrementalHash($len = 10){
         $charset = "0123#$45678#$!9ABCDEFGH!IJ!KLMN#OPQRST$#UVW#XYZabcdefghijk#lmno!pqrstuvw#xyz";
         $base = strlen($charset);
         $result = '';
@@ -20,15 +36,7 @@ class MY_Controller extends CI_Controller
         }
         return substr($result, -10);
     }
-    function objectToArray($d) {
-        if (is_object($d)) {
-            // Gets the properties of the given object
-            // with get_object_vars function
-            $d = get_object_vars($d);
-        }
 
-        return $d;
-    }
     function send_my_emails($variables = array(), $file = 'blank', $to = 'bennymclennan@gmail.com', $subject = 'Email from Travelled Writers', $from = 'noreply@travelledwriters.com', $from_name = 'Travelled Writers') {
         $this->load->library('email');
 
@@ -226,5 +234,5 @@ class MY_Controller extends CI_Controller
         }
 
         return $return;
-    }
+    }*/
 }

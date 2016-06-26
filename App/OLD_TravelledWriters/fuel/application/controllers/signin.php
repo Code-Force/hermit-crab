@@ -1,5 +1,5 @@
 <?php
-class Signin extends Auth_Controller {
+class Signin extends CI_Controller {
 
     function __construct() {
         parent::__construct();
