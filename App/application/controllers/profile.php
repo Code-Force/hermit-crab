@@ -35,7 +35,7 @@ class Profile extends MY_Controller {
         // SET DATA //
         // Get the user data based on the username provided in the url and format the
         // one record returned array.
-        $data['user_profile'] = $this->oneRecordArrayFormat($this->users_model->get_user($user));
+        $data['user_profile'] = $this->dbOneRecordArrayFormat($this->users_model->get_user($user));
 
         if ($data['user_profile']) {
 

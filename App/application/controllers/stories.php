@@ -41,7 +41,7 @@ class Stories extends MY_Controller
             // SET DATA //
             // Retrieve the story based on the slug provided and
             // stick the query result into the variable.
-            $the_story = $this->oneRecordArrayFormat($this->stories_model->get_story($story_slug, 'slug'));
+            $the_story = $this->dbOneRecordArrayFormat($this->stories_model->get_story($story_slug, 'slug'));
 
             // If the story returned and it exists, we continue the process.
             // If there is no story, we need to show the user there is no story.

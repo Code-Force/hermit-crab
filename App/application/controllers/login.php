@@ -87,7 +87,7 @@ class Login extends MY_Controller {
 
         // Set the result variable of the login check.
         // Will return array or false.
-        $result = $this->oneRecordArrayFormat($this->users_model->login($username, $password));
+        $result = $this->dbOneRecordArrayFormat($this->users_model->login($username, $password));
 
         // If false, provide validation error message.
         // Otherwise, proceed with login.

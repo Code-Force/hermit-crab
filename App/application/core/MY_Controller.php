@@ -7,7 +7,7 @@ class MY_Controller extends CI_Controller
         $this->load->library('session');
         $session_data = $this->session->userdata('logged_in');
     }
-    function oneRecordArrayFormat($array) {
+    function dbOneRecordArrayFormat($array) {
         $array = $array[0];
         return $array;
     }
