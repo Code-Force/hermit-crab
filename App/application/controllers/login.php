@@ -120,4 +120,13 @@ class Login extends MY_Controller {
 
     }
 
+    // We need to retrieve the ajax call requested by the front end and return
+    // the view.
+    function ajax () {
+
+        echo $this->load->view('ajax/login_ajax_view', '', TRUE);
+        exit();
+        
+    }
+
 }
