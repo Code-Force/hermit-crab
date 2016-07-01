@@ -50,6 +50,11 @@ class Login extends MY_Controller {
         $this->form_validation->set_rules('username', 'Username', 'trim|required');
         $this->form_validation->set_rules('password', 'Password', 'trim|required|callback_check_database');
 
+        // INITIALISE //
+        // Setup the user data for use in the views.
+        // sessionSetup is in MY_Controller
+        $data['user'] = $this->sessionSetup();
+
         // We now need to run the validation and run the callbacks.
         // If we return 'false', we need to display the errors.
         // If we return 'true', we need to redirect to the account page.

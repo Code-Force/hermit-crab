@@ -8,7 +8,7 @@ Class Users_model extends CI_Model {
     {
 
         // Search the database with the information provided using the sha1 encryption for the password.
-        $query = $this->db->query('SELECT * FROM users u WHERE username = "'.$username.'" AND password = "'.sha1($password).'" LIMIT 1');
+        $query = $this->db->query('SELECT u.id, u.username FROM users u WHERE username = "'.$username.'" AND password = "'.sha1($password).'" LIMIT 1');
 
         // We return it as an array as it's quicker.
         if ($query->num_rows() == 1) {

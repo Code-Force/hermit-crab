@@ -2,6 +2,3 @@
 <?
 
 var_dump($story);
-
-?>
-

@@ -31,7 +31,7 @@ class Account extends MY_Controller {
             // LOAD VIEWS //
             // Gotta load up the header and footer views as well as the main page view.
             $this->load->view('templates/header_view', $data);
-            $this->load->view('users/account_view');
+            $this->load->view('users/account_view', $data);
             $this->load->view('templates/footer_view', $data);
 
         } else {

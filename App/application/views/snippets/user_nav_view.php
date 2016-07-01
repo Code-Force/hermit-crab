@@ -3,7 +3,7 @@
         <a href="/">Go to Home Page</a>
     </li>
     <?
-    if($user) { ?>
+    if(isset($user) && $user) { ?>
         <li>
             <a href="/<?= $user['username']; ?>">My Profile</a>
         </li>
