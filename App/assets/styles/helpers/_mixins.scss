@@ -161,7 +161,7 @@ USAGE:
 	$remSize: $size / 16px;
 	@return $remSize * 1rem;
 }
-@mixin font--size($size) {
+@mixin font__size($size) {
 	font-size: $size;
 	font-size: calculateRem($size);
 	line-height: 1;
@@ -171,13 +171,30 @@ USAGE:
 -----------------------
 Font Mixins
 */
-@mixin font__title {
-	font-family: $font__feature;
-	font-weight: 700;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-}
-@mixin font__content {
+@mixin font__primary {
 	font-family: $font__primary;
+	line-height: 1.2;
+}
+@mixin font__feature {
+	font-family: $font__feature;
+	line-height: 1.2;
 }
 /* end font mixins */
+
+/*
+-----------------------
+Element Mixins
+Used for consistent general-purpose element styling
+*/
+@mixin overlay {
+	position: relative;
+	
+	&::before {
+		background: rgba($color__white, 0.3);
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+}

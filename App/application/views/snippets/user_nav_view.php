@@ -15,7 +15,7 @@
         </li>
     <? } else { ?>
         <li>
-            <a href="/login">login</a>
+            <a href="/login" class="modok" data-url="/login/ajax">login</a>
         </li>
     <? } ?>
 </ul>

@@ -28,7 +28,8 @@ class Login extends MY_Controller {
         // Setup the data for the views.
         $data['title'] = ucfirst('Login');
         // Load the user navigation that controls the logout, login, account, etc links.
-        $data['user_nav_html'] = $this->load->view('snippets/user_nav_view', $data, TRUE);
+        $data['header_snippets'] = $this->initializeHeaderHTML($data);
+        $data['login_modal_html'] = $this->load->view('snippets/login_modal_view', $data, TRUE);
 
         // LOAD VIEWS //
         // Gotta load up the header and footer views as well as
@@ -64,7 +65,8 @@ class Login extends MY_Controller {
             // Setup the data for the views.
             $data['title'] = ucfirst('Login');
             // Load the user navigation that controls the logout, login, account, etc links.
-            $data['user_nav_html'] = $this->load->view('snippets/user_nav_view', $data, TRUE);
+			$data['header_snippets'] = $this->initializeHeaderHTML($data);
+	
 
             // LOAD VIEWS //
             // Field validation failed so we have to show the login form again.

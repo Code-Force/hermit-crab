@@ -3513,6 +3513,7 @@ a {
 
 /* Helpers */
 /* Typography */
+/* Colors */
 /*
 -----------------------
 Maintain Ratio Mixin
@@ -3569,54 +3570,123 @@ USAGE:
 Font Mixins
 */
 /* end font mixins */
+/*
+-----------------------
+Element Mixins
+Used for consistent general-purpose element styling
+*/
 /* Components */
 /* Components - Typography */
 /* line 2, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase; }
+  font-family: "Rasa", serif;
+  line-height: 1.2; }
 
-/* line 5, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+/* Default fonts */
+/* line 6, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 body, p, span {
-  font-family: "Rasa", serif; }
-
-/* line 8, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
-h1 {
   font-size: 35px;
   font-size: 2.1875rem;
+  line-height: 1;
+  font-family: "Rasa", serif;
+  line-height: 1.2; }
+
+/* line 10, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+h1 {
+  font-size: 73.57px;
+  font-size: 4.59812rem;
   line-height: 1; }
 
-/* line 11, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+/* line 13, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 h2 {
   font-size: 28px;
   font-size: 1.75rem;
   line-height: 1; }
 
-/* line 14, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+/* line 16, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 h3 {
   font-size: 22px;
   font-size: 1.375rem;
   line-height: 1; }
 
-/* line 17, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+/* line 19, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 strong, b {
   font-weight: 700; }
 
-/* line 20, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+/* line 22, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 em, i {
   font-style: italic; }
 
-/* line 23, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+/* line 25, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 sup {
   vertical-align: super;
   font-size: smaller; }
 
-/* line 27, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+/* line 29, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 sub {
   vertical-align: sub;
   font-size: smaller; }
+
+/* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
+.modal {
+  position: relative;
+  -webkit-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
+  -moz-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
+  -ms-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
+  -o-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
+  transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  visibility: hidden;
+  width: 100vw; }
+  /* line 192, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/helpers/_mixins.scss */
+  .modal::before {
+    background: rgba(255, 255, 255, 0.3);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  /* line 36, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/helpers/_mixins.scss */
+  .modal:before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 42, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/helpers/_mixins.scss */
+  .modal > * {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal; }
+  /* line 14, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
+  .modal .modal__content {
+    -webkit-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
+    -moz-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
+    -ms-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
+    -o-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
+    transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
+    background-color: #FFFFFF;
+    margin: auto;
+    opacity: 0;
+    position: relative;
+    top: 100px;
+    visibility: hidden; }
+  /* line 23, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
+  .modal.active {
+    opacity: 1;
+    visibility: visible; }
+    /* line 27, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
+    .modal.active .modal__content {
+      opacity: 1;
+      top: 0;
+      visibility: visible; }
 
 /* Themes */
 /* Layout */
