@@ -42,7 +42,7 @@ class Profile extends MY_Controller {
             // The title is the viewed user's username
             $data['title'] = ucfirst($user);
             // Load the user navigation that controls the logout, login, account, etc links.
-            $data['user_nav_html'] = $this->load->view('snippets/user_nav_view', $data, TRUE);
+            $data['header_snippets'] = $this->initializeHeaderHTML($data);
 
             // LOAD VIEWS //
             // Gotta load up the header and footer views as well as

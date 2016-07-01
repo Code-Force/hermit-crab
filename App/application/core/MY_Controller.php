@@ -14,6 +14,12 @@ class MY_Controller extends CI_Controller
     function sessionSetup() {
         return $this->session->userdata('logged_in');
     }
+    function initializeHeaderHTML($data) {
+        $load_views = array(
+        'user_nav_html' => $this->load->view('snippets/user_nav_view', $data, TRUE)
+        );
+        return $load_views;
+    }
     function objectToArray($d) {
         if (is_object($d)) {
             // Gets the properties of the given object

@@ -22,7 +22,7 @@ class Home extends MY_Controller {
         // We need to pull in some stories for testing purposes
         $data['stories'] = $this->stories_model->get_stories(30);
         // Load the user navigation that controls the logout, login, account, etc links.
-        $data['user_nav_html'] = $this->load->view('snippets/user_nav_view', $data, TRUE);
+        $data['header_snippets'] = $this->initializeHeaderHTML($data);
 
         // LOAD VIEWS //
         // Gotta load up the header and footer views as well as the main page view.

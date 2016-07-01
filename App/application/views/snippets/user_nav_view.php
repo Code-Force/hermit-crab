@@ -3,6 +3,7 @@
         <a href="/">Go to Home Page</a>
     </li>
     <?
+    var_dump($user);
     if(isset($user) && $user) { ?>
         <li>
             <a href="/<?= $user['username']; ?>">My Profile</a>
@@ -16,6 +17,9 @@
     <? } else { ?>
         <li>
             <a href="/login">login</a>
+        </li>
+        <li>
+            <a href="/register">register</a>
         </li>
     <? } ?>
 </ul>

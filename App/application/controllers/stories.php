@@ -31,7 +31,7 @@ class Stories extends MY_Controller
         // sessionSetup is in MY_Controller
         $data['user'] = $this->sessionSetup();
         // Load the user navigation that controls the logout, login, account, etc links.
-        $data['user_nav_html'] = $this->load->view('snippets/user_nav_view', $data, TRUE);
+        $data['header_snippets'] = $this->initializeHeaderHTML($data);
 
         // FIX LATER : We need to add security for checking the slug
         // If the story slug exists, we continue searching for the story.
