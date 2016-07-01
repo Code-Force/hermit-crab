@@ -56,6 +56,7 @@ $route['pages'] = 'pages';
 $route['pages/(:any)'] = 'pages/view/$';
 $route['stories/(:any)'] = 'stories/view/$1';
 $route['login'] = "login";
+$route['register'] = "register";
 $route['logout'] = "home/logout";
 $route['account'] = "account";
 $route['(:any)'] = 'profile/view/$1';
