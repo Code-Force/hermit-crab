@@ -190,7 +190,7 @@ Used for consistent general-purpose element styling
 	position: relative;
 	
 	&::before {
-		background: rgba($color__white, 0.3);
+		background: rgba($color__white, 0.7);
 		height: 100%;
 		left: 0;
 		position: absolute;

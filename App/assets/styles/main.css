@@ -3628,16 +3628,13 @@ sub {
   font-size: smaller; }
 
 /* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
-.modal {
+.modok {
   position: relative;
-  -webkit-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
-  -moz-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
-  -ms-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
-  -o-transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
-  transition: opacity 0.2s linear, visibility 0.3s linear 0.3s;
-  padding: 0;
-  position: relative;
-  white-space: nowrap;
+  -webkit-transition: opacity 0.2s linear, visibility 0.3s linear;
+  -moz-transition: opacity 0.2s linear, visibility 0.3s linear;
+  -ms-transition: opacity 0.2s linear, visibility 0.3s linear;
+  -o-transition: opacity 0.2s linear, visibility 0.3s linear;
+  transition: opacity 0.2s linear, visibility 0.3s linear;
   height: 100vh;
   left: 0;
   opacity: 0;
@@ -3647,45 +3644,38 @@ sub {
   visibility: hidden;
   width: 100vw; }
   /* line 192, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/helpers/_mixins.scss */
-  .modal::before {
-    background: rgba(255, 255, 255, 0.3);
+  .modok::before {
+    background: rgba(255, 255, 255, 0.7);
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%; }
-  /* line 36, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/helpers/_mixins.scss */
-  .modal:before {
-    content: '';
-    height: 100%;
-    display: inline-block;
-    vertical-align: middle; }
-  /* line 42, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/helpers/_mixins.scss */
-  .modal > * {
-    display: inline-block;
-    vertical-align: middle;
-    white-space: normal; }
-  /* line 14, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
-  .modal .modal__content {
-    -webkit-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
-    -moz-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
-    -ms-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
-    -o-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
-    transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear 0.4s;
+  /* line 13, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
+  .modok .modok__content {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear;
+    -moz-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear;
+    -ms-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear;
+    -o-transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear;
+    transition: top 0.4s ease-in-out, opacity 0.4s linear, visibility 0.4s linear;
     background-color: #FFFFFF;
     margin: auto;
     opacity: 0;
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
     visibility: hidden; }
-  /* line 23, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
-  .modal.active {
+  /* line 24, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
+  .modok.modok--active {
     opacity: 1;
     visibility: visible; }
-    /* line 27, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
-    .modal.active .modal__content {
+    /* line 28, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modal.scss */
+    .modok.modok--active .modok__content {
       opacity: 1;
-      top: 0;
+      top: 50%;
       visibility: visible; }
 
 /* Themes */

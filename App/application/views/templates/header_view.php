@@ -23,7 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script>
 		head.load(
 			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' },
-			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js'}
+			{ modok: 'assets/scripts/modok.js' },
+			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js' }
 		);
 	</script>
 	<!-- end scripts -->

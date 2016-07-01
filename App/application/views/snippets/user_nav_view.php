@@ -3,7 +3,6 @@
         <a href="/">Go to Home Page</a>
     </li>
     <?
-    var_dump($user);
     if(isset($user) && $user) { ?>
         <li>
             <a href="/<?= $user['username']; ?>">My Profile</a>
@@ -16,7 +15,7 @@
         </li>
     <? } else { ?>
         <li>
-            <a href="/login" class="modok" data-url="/login/ajax">login</a>
+            <a href="/login" class="modok-trigger" data-url="/login/ajax">login</a>
         </li>
         <li>
             <a href="/register">register</a>
