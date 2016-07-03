@@ -23,6 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script>
 		head.load(
 			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' },
+			{ turbolinks: 'assets/scripts/vendors/turbolinks.min.js' },
 			{ modok: 'assets/scripts/modok.js' },
 			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js' }
 		);

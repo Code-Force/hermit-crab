@@ -1,7 +1,13 @@
+/* start event binding */
 $(document).on('click', '.modok-trigger', function(e) {
 	e.preventDefault();
 	modokActivate($(this));
 });
+
+$(document).on('click', '.modok-close', function(e) {
+	modokClose($(this));
+});
+/* end event binding */
 
 function modokActivate($this) {
 	/* Default values */
@@ -22,13 +28,22 @@ function modokActivate($this) {
 			type: callType,
 			url: elementAJAXURL,
 			success: function(data) {
+				modokCloseAll();
+				
 				/* Create a unique id for the modal to prevent affecting multiple modals */
 				var modalID = 'modok-' + (Math.floor((Math.random() * 1000) + 1));
 				/* Create the modal element */
-				var modal = '<div id="' + modalID + '" class="modok"><div class="modok__content">' + data + '</div></div>';
-				$('body').append(modal);
+				var modal = ''+
+					'<div id="' + modalID + '" class="modok">' +
+						'<div class="modok__overlay modok-close"></div>' +
+						'<button class="modok__close-button modok-close"><i class="fa fa-times" aria-hidden="true"></i></button>' +
+						'<div class="modok__content">' + data + '</div>' +
+					'</div>';
+				$('body').append(modal).addClass('modok--lock');
 				/* Activate modal */
-				$('#' + modalID).addClass('modok--active');
+				setTimeout(function() {
+					$('#' + modalID).addClass('modok--active');
+				}, 0);
 			},
 			error: function() {
 				/* On failure, redirect to original link if it exists */
@@ -36,6 +51,12 @@ function modokActivate($this) {
 					window.location.href = elementFallbackURL;
 				}
 			}
-		})
+		});
 	}
+}
+function modokClose($this) {
+	$this.parents('.modok').remove();
+}
+function modokCloseAll() {
+	$('.modok').remove();
 }

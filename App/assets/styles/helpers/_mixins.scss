@@ -135,6 +135,12 @@ USAGE:
         @content;
     }
 }
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder {@content}
+    &::-moz-placeholder {@content}
+    &:-ms-input-placeholder {@content}
+}
 @mixin animation($str) {
     -webkit-animation: #{$str};
     -moz-animation: #{$str};
@@ -147,6 +153,12 @@ USAGE:
 	appearance: #{$str};
 	-moz-appearance: #{$str};
 	-webkit-appearance: #{$str};
+}
+/* end animation mixin */
+@mixin box-shadow($str) {
+	-webkit-box-shadow: #{$str};
+	-moz-box-shadow: #{$str};
+	box-shadow: #{$str};
 }
 /*
 -----------------------
@@ -177,6 +189,7 @@ Font Mixins
 }
 @mixin font__feature {
 	font-family: $font__feature;
+	letter-spacing: 0.05em;
 	line-height: 1.2;
 }
 /* end font mixins */
@@ -186,15 +199,3 @@ Font Mixins
 Element Mixins
 Used for consistent general-purpose element styling
 */
-@mixin overlay {
-	position: relative;
-	
-	&::before {
-		background: rgba($color__white, 0.7);
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-	}
-}

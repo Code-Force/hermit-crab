@@ -1,0 +1,30 @@
+.input--default,input,textarea {
+	@include appearance(none);
+	@include font__feature;
+	@include transition(0.2s linear);
+	background: $color__white;
+	border: 1px solid $color__grey--light;
+	color: $color__grey--dark;
+	font-weight: 700;
+	padding: 10px;
+	
+	@include placeholder {
+		color: $color__grey--light;
+		font-style: italic;
+	}
+	&:focus {
+		outline: 0;
+		border: 1px solid $color__feature;
+	}
+}
+button,.button,input[type=submit] {
+	@include font__feature;
+	@include font__size(15px);
+	background: $color__feature--dark;
+	border: none;
+	color: $color__white;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 10px 40px;
+	text-transform: uppercase;
+}
