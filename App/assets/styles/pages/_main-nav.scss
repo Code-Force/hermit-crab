@@ -1,0 +1,15 @@
+.header {
+	margin: 20px 0;
+	
+	.header__logo {
+		height: auto;
+		max-width: 60px;
+	}
+	.header__compass {
+		height: auto;
+		max-width: 50px;
+	}
+	.header__account {
+		@include font__size(22px);
+	}
+}

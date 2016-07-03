@@ -47,6 +47,71 @@ a {
   text-decoration: none;
   color: inherit; }
 
+/* Helpers */
+/*
+-----------------------
+Maintain Ratio Mixin
+Keeps the ratio of a container during window resizes
+USAGE:
+    div {
+        /* Keeps the container square
+        @include maintain-ratio($ratio: 1 1);
+    }
+*/
+/*
+-----------------------
+Flexbox compatibility mixins
+*/
+/* end flexbox mixins */
+/*
+-----------------------
+Calc Mixin
+
+USAGE:
+    .example {
+        @include calc(width, "25% - 1em");
+    }
+*/
+/* end calc mixin */
+/*
+-----------------------
+Animation Mixin
+USAGE:
+    @include keyframes(slide-down) {
+        0% { opacity: 1; }
+        90% { opacity: 0; }
+    }
+    .element {
+        width: 100px;
+        height: 100px;
+        background: black;
+        @include animation('slide-down 5s 3');
+    }
+*/
+/* end animation mixin */
+/* end animation mixin */
+/*
+-----------------------
+Font-size Mixin
+Calculates REM sizes and defaults to px on fail
+USAGE:
+    p {
+        @include font-size(14px)
+    }
+*/
+/* end font-size mixin */
+/*
+-----------------------
+Font Mixins
+*/
+/* end font mixins */
+/*
+-----------------------
+Element Mixins
+Used for consistent general-purpose element styling
+*/
+/* Typography */
+/* Colors */
 /* Vendors */
 /* line 255, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
 .container {
@@ -3323,6 +3388,18 @@ a {
 .visible-lg-inline-block {
   display: none !important; }
 
+/* line 402, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+.col-left {
+  text-align: left; }
+
+/* line 405, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+.col-center {
+  text-align: center; }
+
+/* line 408, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+.col-right {
+  text-align: right; }
+
 @media (max-width: 709px) {
   /* line 336, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-xs {
@@ -3339,17 +3416,17 @@ a {
     display: table-cell !important; } }
 
 @media (max-width: 709px) {
-  /* line 405, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 415, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-xs-block {
     display: block !important; } }
 
 @media (max-width: 709px) {
-  /* line 410, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 420, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-xs-inline {
     display: inline !important; } }
 
 @media (max-width: 709px) {
-  /* line 415, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 425, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-xs-inline-block {
     display: inline-block !important; } }
 
@@ -3369,17 +3446,17 @@ a {
     display: table-cell !important; } }
 
 @media (min-width: 710px) and (max-width: 899px) {
-  /* line 424, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 434, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-sm-block {
     display: block !important; } }
 
 @media (min-width: 710px) and (max-width: 899px) {
-  /* line 429, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 439, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-sm-inline {
     display: inline !important; } }
 
 @media (min-width: 710px) and (max-width: 899px) {
-  /* line 434, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 444, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-sm-inline-block {
     display: inline-block !important; } }
 
@@ -3399,17 +3476,17 @@ a {
     display: table-cell !important; } }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-  /* line 443, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 453, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-md-block {
     display: block !important; } }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-  /* line 448, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 458, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-md-inline {
     display: inline !important; } }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-  /* line 453, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 463, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-md-inline-block {
     display: inline-block !important; } }
 
@@ -3429,17 +3506,17 @@ a {
     display: table-cell !important; } }
 
 @media (min-width: 1200px) {
-  /* line 462, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 472, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-lg-block {
     display: block !important; } }
 
 @media (min-width: 1200px) {
-  /* line 467, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 477, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-lg-inline {
     display: inline !important; } }
 
 @media (min-width: 1200px) {
-  /* line 472, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  /* line 482, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
   .visible-lg-inline-block {
     display: inline-block !important; } }
 
@@ -3482,27 +3559,27 @@ a {
   td.visible-print {
     display: table-cell !important; } }
 
-/* line 506, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+/* line 516, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
 .visible-print-block {
   display: none !important; }
   @media print {
-    /* line 506, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+    /* line 516, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
     .visible-print-block {
       display: block !important; } }
 
-/* line 513, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+/* line 523, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
 .visible-print-inline {
   display: none !important; }
   @media print {
-    /* line 513, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+    /* line 523, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
     .visible-print-inline {
       display: inline !important; } }
 
-/* line 520, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+/* line 530, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
 .visible-print-inline-block {
   display: none !important; }
   @media print {
-    /* line 520, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+    /* line 530, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
     .visible-print-inline-block {
       display: inline-block !important; } }
 
@@ -3511,71 +3588,10 @@ a {
   .hidden-print {
     display: none !important; } }
 
-/* Helpers */
-/*
------------------------
-Maintain Ratio Mixin
-Keeps the ratio of a container during window resizes
-USAGE:
-    div {
-        /* Keeps the container square
-        @include maintain-ratio($ratio: 1 1);
-    }
-*/
-/*
------------------------
-Flexbox compatibility mixins
-*/
-/* end flexbox mixins */
-/*
------------------------
-Calc Mixin
+/* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_turbolinks.scss */
+.turbolinks-progress-bar {
+  background: #F26B57; }
 
-USAGE:
-    .example {
-        @include calc(width, "25% - 1em");
-    }
-*/
-/* end calc mixin */
-/*
------------------------
-Animation Mixin
-USAGE:
-    @include keyframes(slide-down) {
-        0% { opacity: 1; }
-        90% { opacity: 0; }
-    }
-    .element {
-        width: 100px;
-        height: 100px;
-        background: black;
-        @include animation('slide-down 5s 3');
-    }
-*/
-/* end animation mixin */
-/* end animation mixin */
-/*
------------------------
-Font-size Mixin
-Calculates REM sizes and defaults to px on fail
-USAGE:
-    p {
-        @include font-size(14px)
-    }
-*/
-/* end font-size mixin */
-/*
------------------------
-Font Mixins
-*/
-/* end font mixins */
-/*
------------------------
-Element Mixins
-Used for consistent general-purpose element styling
-*/
-/* Typography */
-/* Colors */
 /* Components */
 /* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_inputs.scss */
 .input--default, input, textarea {
@@ -3594,7 +3610,8 @@ Used for consistent general-purpose element styling
   border: 1px solid #D4D3D3;
   color: #373737;
   font-weight: 700;
-  padding: 10px; }
+  padding: 10px;
+  width: 100%; }
   /* line 139, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/helpers/_mixins.scss */
   .input--default::-webkit-input-placeholder, input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #D4D3D3;
@@ -3611,26 +3628,34 @@ Used for consistent general-purpose element styling
   .input--default:-ms-input-placeholder, input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color: #D4D3D3;
     font-style: italic; }
-  /* line 15, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_inputs.scss */
+  /* line 16, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_inputs.scss */
   .input--default:focus, input:focus, textarea:focus {
     outline: 0;
     border: 1px solid #F26B57; }
 
-/* line 20, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_inputs.scss */
+/* line 21, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_inputs.scss */
 button, .button, input[type=submit] {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.05em;
   line-height: 1.2;
-  font-size: 26px;
-  font-size: 1.625rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1;
-  background: #E26351;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  background: #F26B57;
   border: none;
   color: #FFFFFF;
   cursor: pointer;
   font-weight: 700;
   padding: 10px 40px;
   text-transform: uppercase; }
+  /* line 33, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_inputs.scss */
+  button:hover, .button:hover, input[type=submit]:hover {
+    background: #DF6350; }
 
 /* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
 .modok {
@@ -3662,17 +3687,20 @@ button, .button, input[type=submit] {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
+    background: none;
+    border: none;
+    color: inherit;
+    height: auto;
+    padding: 0;
+    width: auto;
     font-size: 30px;
     font-size: 1.875rem;
     line-height: 1;
-    background: none;
-    border: none;
     color: #373737;
-    cursor: pointer;
     position: absolute;
     right: 20px;
     top: 20px; }
-  /* line 33, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
+  /* line 30, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
   .modok .modok__content {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -3688,17 +3716,17 @@ button, .button, input[type=submit] {
     top: 70%;
     left: 50%;
     visibility: hidden; }
-  /* line 43, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
+  /* line 40, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
   .modok.modok--active {
     opacity: 1;
     visibility: visible; }
-    /* line 47, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
+    /* line 44, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
     .modok.modok--active .modok__content {
       opacity: 1;
       top: 50%;
       visibility: visible; }
 
-/* line 55, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
+/* line 52, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_modok.scss */
 .modok--lock {
   overflow: hidden !important; }
 
@@ -3753,15 +3781,47 @@ sub {
   vertical-align: sub;
   font-size: smaller; }
 
+/* line 34, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
+p a, span a {
+  border-bottom: 1px solid #F26B57;
+  display: inline-block;
+  line-height: 0.9; }
+
 /* Themes */
 /* Layout */
 /* Pages */
+/* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_main-nav.scss */
+.header {
+  margin: 20px 0; }
+  /* line 4, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_main-nav.scss */
+  .header .header__logo {
+    height: auto;
+    max-width: 60px; }
+  /* line 8, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_main-nav.scss */
+  .header .header__compass {
+    height: auto;
+    max-width: 50px; }
+  /* line 12, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_main-nav.scss */
+  .header .header__account {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1; }
+
 /* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_ajax-login.scss */
 .login-modal {
   -webkit-box-shadow: 0px 4px 13px -3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 4px 13px -3px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 13px -3px rgba(0, 0, 0, 0.2);
   background-color: #FFFFFF;
+  min-width: 300px;
   padding: 40px; }
+  /* line 7, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_ajax-login.scss */
+  .login-modal .login-modal__submit {
+    margin-top: 20px; }
+  /* line 10, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_ajax-login.scss */
+  .login-modal .login-modal__register {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1; }
 
 /*# sourceMappingURL=main.css.map */

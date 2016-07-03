@@ -5,6 +5,7 @@
 		<br/>
 		<input type="password"  id="passowrd" name="password" placeholder="Password" />
 		<br/>
-		<input type="submit" value="Login"/>
+		<input class="login-modal__submit" type="submit" value="Login"/>
 	</form>
+	<span class="login-modal__register">Don't have an account? <a href="/register">Register</a></span>
 </div>

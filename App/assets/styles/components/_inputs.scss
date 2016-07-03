@@ -7,6 +7,7 @@
 	color: $color__grey--dark;
 	font-weight: 700;
 	padding: 10px;
+	width: 100%;
 	
 	@include placeholder {
 		color: $color__grey--light;
@@ -20,11 +21,16 @@
 button,.button,input[type=submit] {
 	@include font__feature;
 	@include font__size(15px);
-	background: $color__feature--dark;
+	@include transition(0.2s linear);
+	background: $color__feature;
 	border: none;
 	color: $color__white;
 	cursor: pointer;
 	font-weight: 700;
 	padding: 10px 40px;
 	text-transform: uppercase;
+	
+	&:hover {
+		background: $color__feature--dark;
+	}
 }

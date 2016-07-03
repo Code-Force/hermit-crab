@@ -199,3 +199,12 @@ Font Mixins
 Element Mixins
 Used for consistent general-purpose element styling
 */
+@mixin input--reset {
+	@include appearance(none);
+	background: none;
+	border: none;
+	color: inherit;
+	height: auto;
+	padding: 0;
+	width: auto;
+}

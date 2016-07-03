@@ -400,6 +400,16 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   display: none !important;
 }
 
+.col-left {
+	text-align: left;
+}
+.col-center {
+	text-align: center;
+}
+.col-right {
+	text-align: right;
+}
+
 @media (max-width: $screen-xs-max) {
   @include responsive-visibility('.visible-xs');
 }

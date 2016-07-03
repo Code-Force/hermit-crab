@@ -1,14 +1,15 @@
 /* Base */
 @import 'base/_reset.scss';
 
-/* Vendors */
-@import 'vendors/_shoelace.scss';
-
 /* Helpers */
 @import 'helpers/_functions.scss';
 @import 'helpers/_helpers.scss';
 @import 'helpers/_mixins.scss';
 @import 'helpers/_variables.scss';
+
+/* Vendors */
+@import 'vendors/_shoelace.scss';
+@import 'vendors/_turbolinks.scss';
 
 /* Components */
 @import 'components/_inputs.scss';
@@ -22,4 +23,5 @@
 /* Layout */
 
 /* Pages */
+@import 'pages/_main-nav.scss';
 @import 'pages/_ajax-login.scss';

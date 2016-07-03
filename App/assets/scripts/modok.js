@@ -1,3 +1,8 @@
+/*
+* M.O.D.O.K.
+* Modal Object Displaying the Offered Key
+*/
+
 /* start event binding */
 $(document).on('click', '.modok-trigger', function(e) {
 	e.preventDefault();
@@ -55,8 +60,13 @@ function modokActivate($this) {
 	}
 }
 function modokClose($this) {
-	$this.parents('.modok').remove();
+	$this.parents('.modok').removeClass('modok--active');
+	$('body').removeClass('modok--lock');
+	setTimeout(function() {
+		$this.parents('.modok').remove();
+	}, 300);
 }
 function modokCloseAll() {
+	$('body').removeClass('modok--lock');
 	$('.modok').remove();
 }

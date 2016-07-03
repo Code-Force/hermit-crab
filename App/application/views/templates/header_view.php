@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- end scripts -->
 </head>
 <body>
-<header>
+<header class="header">
 	<?= $header_snippets['user_nav_html']; ?>
 </header>
 	<h1><?php echo $title; ?></h1>
