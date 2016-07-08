@@ -50,5 +50,7 @@
 }
 
 .modok--lock {
-	overflow: hidden !important;
+    overflow-y: scroll !important;
+    position: fixed !important;
+    width: 100% !important;
 }

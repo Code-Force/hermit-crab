@@ -16,6 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 	<!-- stylesheet -->
 	<link href="<?= base_url(); ?>assets/styles/main.css" rel="stylesheet">
+	<link href="<?= base_url(); ?>assets/styles/vendors/content-tools/content-tools.min.css" rel="stylesheet">
 	<!-- end stylesheet -->
 	
 	<!-- scripts -->
@@ -23,8 +24,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script>
 		head.load(
 			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' },
-			{ turbolinks: 'assets/scripts/vendors/turbolinks.min.js' },
-			{ modok: 'assets/scripts/modok.js' },
+			{ turbolinks: '<?= base_url(); ?>assets/scripts/vendors/turbolinks.min.js' },
+			{ iscroll: '<?= base_url(); ?>assets/scripts/vendors/iscroll.min.js' },
+			{ generalScripts: '<?= base_url(); ?>assets/scripts/general-scripts.min.js' },
+			{ modok: '<?= base_url(); ?>assets/scripts/modok.min.js' },
+			{ contentLinks: '<?= base_url(); ?>assets/scripts/vendors/content-tools.min.js' },
+			{ contentEditor: '<?= base_url(); ?>assets/scripts/content-editor.min.js' },
 			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js' }
 		);
 	</script>
@@ -34,4 +39,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <header class="header">
 	<?= $header_snippets['user_nav_html']; ?>
 </header>
-	<h1><?php echo $title; ?></h1>

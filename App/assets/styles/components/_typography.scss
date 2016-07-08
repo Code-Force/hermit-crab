@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* Default fonts */
 body,p,span {
-	@include font__size(35px);
+	@include font__size(25px);
 	@include font__primary;
 }
 h1 {
@@ -36,4 +36,7 @@ p, span {
 	display: inline-block;
 	line-height: 0.9;
 	}
+}
+p {
+	margin-bottom: 25px;
 }
