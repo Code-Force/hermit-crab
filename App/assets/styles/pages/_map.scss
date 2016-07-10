@@ -1,0 +1,33 @@
+#map {
+  height: 100vh;
+}
+.out-box__inner-box {
+  box-shadow: none !important;
+  background: none;
+  border-radius: 10px !important;
+}
+.box-arrow {
+  border-radius: 0px !important;
+  div {
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    &:nth-child(4) {
+      border-radius: 10px !important;
+    }
+  }
+
+}
+#story-popup {
+  max-width: 300px;
+  h1 {
+    font-size: 23px;
+  }
+}
+.story-popup_content-box {
+  max-width: 300px;
+  p {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+}

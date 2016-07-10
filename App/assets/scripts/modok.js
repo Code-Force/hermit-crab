@@ -25,7 +25,7 @@ function modokActivate($this) {
 	var elementCallType = $this.data('call-type');
 	/* Validate the call type passed as data */
 	if(elementCallType !== undefined && elementCallType.inArray(acceptableCallTypes) > 0) {
-		callType = $this.data('call-type');
+		callType = elementCallType;
 	}
 	
 	if(elementAJAXURL !== undefined) {

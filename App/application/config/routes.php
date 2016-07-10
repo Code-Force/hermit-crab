@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 $route['pages'] = 'pages';
 $route['pages/(:any)'] = 'pages/view/$';
+$route['stories/ajax/(:any)'] = 'stories/ajax/$1';
 $route['stories/(:any)'] = 'stories/view/$1';
 $route['login'] = "login";
 $route['register'] = "register";

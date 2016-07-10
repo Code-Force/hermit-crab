@@ -78,4 +78,16 @@ class Stories extends MY_Controller
         }
     }
 
+
+    function ajax($function = 'stories_list') {
+
+        echo $this->$function();
+
+
+    }
+    function stories_list () {
+        $stories = $this->stories_model->get_stories();
+
+        return json_encode($stories);
+    }
 }

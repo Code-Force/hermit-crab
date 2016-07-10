@@ -3439,7 +3439,6 @@ p a, span a {
   display: inline-block;
   line-height: 0.9; }
 
-/* line 40, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 p {
   margin-bottom: 25px; }
 
@@ -3475,5 +3474,33 @@ p {
     font-size: 15px;
     font-size: 0.9375rem;
     line-height: 1; }
+
+#map {
+  height: 100vh; }
+
+.out-box__inner-box {
+  box-shadow: none !important;
+  background: none;
+  border-radius: 10px !important; }
+
+.box-arrow {
+  border-radius: 0px !important; }
+  .box-arrow div {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important; }
+    .box-arrow div:nth-child(4) {
+      border-radius: 10px !important; }
+
+#story-popup {
+  max-width: 300px; }
+  #story-popup h1 {
+    font-size: 23px; }
+
+.story-popup_content-box {
+  max-width: 300px; }
+  .story-popup_content-box p {
+    font-size: 13px;
+    margin-bottom: 0px; }
 
 /*# sourceMappingURL=main.css.map */

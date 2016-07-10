@@ -23,10 +23,16 @@ class Stories_model extends CI_Model {
     }
 
     // Get X amount of stories
-    public function get_stories($num, $order = 'ASC') {
+    public function get_stories($num = 999999, $order = 'ASC') {
 
         // Query to retrieve multiple stories.
-        $query = $this->db->query('SELECT * FROM stories s ORDER BY s.story_title '.$order.' LIMIT '.$num);
+        $query = $this->db->query('SELECT s.*, cou.nicename as country, con.nicename as continent, cat.handle as category
+            FROM stories s, countries cou, continents con, categories cat
+            WHERE cou.country_id = s.country_id
+            AND cou.continent_id = con.continent_id
+            AND s.category_id = cat.category_id
+            GROUP BY s.story_id
+            ORDER BY s.story_title '.$order.' LIMIT '.$num);
 
         // We return it as an array as it's quicker.
         if ($query->num_rows() > 0) {
@@ -34,6 +40,10 @@ class Stories_model extends CI_Model {
         } else {
             return false;
         }
+
+    }
+
+    public function get_tags ($story_id) {
 
     }
 

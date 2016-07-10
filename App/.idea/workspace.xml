@@ -25,41 +25,31 @@
       <file leaf-file-name="home_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/home_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.924528">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state vertical-scroll-proportion="-1.9245284">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#527#756#0#PHP" expanded="true" />
-                <marker date="1467951950915" expanded="true" signature="628:724" placeholder="..." />
+                <element signature="e#165#394#0#PHP" expanded="true" />
+                <marker date="1468175292888" expanded="true" signature="266:362" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/templates/header_view.php">
+      <file leaf-file-name="_map.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/styles/pages/_map.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.269231">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.911661">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.82258064">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -68,38 +58,64 @@
       <file leaf-file-name="custom-maps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scripts/custom-maps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5172415">
-              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="-10.551724">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <marker date="1468133735817" expanded="true" signature="6636:6894" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_5wayscustomizeinfowindow.zip/5wayscustomizeinfowindow/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="20.076923">
-              <caret line="10" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/map.js">
+      <file leaf-file-name="modok.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/modok.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="32" selection-end-column="27" />
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snazzy-maps-example-unsaturated-browns-style (1).html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/snazzy-maps-example-unsaturated-browns-style (1).html">
+      <file leaf-file-name="header_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/header_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="57" selection-end-column="19" />
+            <state vertical-scroll-proportion="-21.153847">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stories_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/stories_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <marker date="1468125023388" expanded="true" signature="485:554" placeholder="SELECT * FRO... stories" />
+                <marker date="1468125023388" expanded="true" signature="934:1327" placeholder="SELECT * FRO... stories" />
+                <marker date="1468125023388" expanded="true" signature="934:1333" placeholder="SELECT * FRO... stories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/stories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.269231">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.307693">
+              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -108,8 +124,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.346154">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,14 +146,20 @@
         <option value="$PROJECT_DIR$/application/views/snippets/user_nav_view.php" />
         <option value="$PROJECT_DIR$/application/views/users/register_view.php" />
         <option value="$PROJECT_DIR$/application/models/users_model.php" />
-        <option value="$PROJECT_DIR$/assets/styles/main.scss" />
         <option value="$PROJECT_DIR$/assets/styles/pages/_main-nav.scss" />
         <option value="$PROJECT_DIR$/assets/scripts/vendors/gmaps.js" />
-        <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/assets/scripts/vendors/infobubble.js" />
-        <option value="$PROJECT_DIR$/application/views/home_view.php" />
-        <option value="$PROJECT_DIR$/assets/scripts/custom-maps.js" />
         <option value="$PROJECT_DIR$/application/views/templates/header_view.php" />
+        <option value="$PROJECT_DIR$/OLD_TravelledWriters/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/models/stories_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/stories.php" />
+        <option value="$PROJECT_DIR$/assets/scripts/modok.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/custom-maps.js" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/application/views/home_view.php" />
+        <option value="$PROJECT_DIR$/assets/styles/pages/_map.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/main.scss" />
       </list>
     </option>
   </component>
@@ -148,10 +170,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="2574" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +214,170 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD_TravelledWriters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD_TravelledWriters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD_TravelledWriters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD_TravelledWriters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD_TravelledWriters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD_TravelledWriters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0649535e943ae0c57e771ad62bfaba72" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,6 +418,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,6 +609,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -425,8 +649,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -438,6 +681,9 @@
     <property name="last_opened_file_path" value="C:/Ruby22-x64/bin/scss.bat" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\wamp64\www\travelledwriters\App\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\wamp64\www\travelledwriters\App\assets\scripts\vendors" />
     </key>
@@ -461,6 +707,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -493,18 +744,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="2574" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10731319" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10819411" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5079491" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33114755" sideWeight="0.5015911" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.4920509" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33114755" sideWeight="0.47454256" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.4984089" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -523,11 +774,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/snazzy-maps-example-unsaturated-browns-style (1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="57" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/snippets/user_nav_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,8 +832,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
-            <element signature="e#527#756#0#PHP" expanded="true" />
-            <marker date="1467951950915" expanded="true" signature="628:724" placeholder="..." />
+            <element signature="e#165#394#0#PHP" expanded="true" />
+            <marker date="1468175292888" expanded="true" signature="266:362" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -578,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="34" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,13 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467566526212" expanded="true" signature="425:544" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1063:1145" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1252:1325" placeholder="SELECT u.ema... users" />
-            <marker date="1467566526212" expanded="true" signature="1769:1906" placeholder="INSERT INTO users... " />
-            <marker date="1467566526212" expanded="true" signature="2538:2608" placeholder="SELECT u.use... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,8 +901,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
-            <element signature="e#527#756#0#PHP" expanded="true" />
-            <marker date="1467951950915" expanded="true" signature="628:724" placeholder="..." />
+            <element signature="e#165#394#0#PHP" expanded="true" />
+            <marker date="1468175292888" expanded="true" signature="266:362" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -659,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="34" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,13 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467566526212" expanded="true" signature="425:544" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1063:1145" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1252:1325" placeholder="SELECT u.ema... users" />
-            <marker date="1467566526212" expanded="true" signature="1769:1906" placeholder="INSERT INTO users... " />
-            <marker date="1467566526212" expanded="true" signature="2538:2608" placeholder="SELECT u.use... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="34" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,13 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1467566526212" expanded="true" signature="425:544" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1063:1145" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1252:1325" placeholder="SELECT u.ema... users" />
-            <marker date="1467566526212" expanded="true" signature="1769:1906" placeholder="INSERT INTO users... " />
-            <marker date="1467566526212" expanded="true" signature="2538:2608" placeholder="SELECT u.use... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,12 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85865724">
           <caret line="260" column="70" selection-start-line="260" selection-start-column="70" selection-end-line="260" selection-end-column="70" />
-          <folding>
-            <marker date="1467495623127" expanded="true" signature="2744:2835" placeholder="..." />
-            <marker date="1467495623127" expanded="true" signature="3237:3656" placeholder="..." />
-            <marker date="1467495623127" expanded="true" signature="3781:3985" placeholder="..." />
-            <marker date="1467495623127" expanded="true" signature="3826:3985" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,15 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
           <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.346154">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,62 +1024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_5wayscustomizeinfowindow.zip/5wayscustomizeinfowindow/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="20.076923">
-          <caret line="10" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/example.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39045936">
           <caret line="208" column="7" selection-start-line="208" selection-start-column="7" selection-end-line="208" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/snazzy-maps-example-unsaturated-browns-style (1).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="57" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.924528">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="e#527#756#0#PHP" expanded="true" />
-            <marker date="1467951950915" expanded="true" signature="628:724" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/custom-maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5172415">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/header_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.269231">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,14 +1038,183 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8666666">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.911661">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/snazzy-maps-example-unsaturated-browns-style (1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1923077">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="57" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OLD_TravelledWriters/fuel/application/controllers/follow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="84" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OLD_TravelledWriters/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="29" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.307693">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OLD_TravelledWriters/fuel/application/models/write_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11640212">
+          <caret line="125" column="121" selection-start-line="125" selection-start-column="121" selection-end-line="125" selection-end-column="121" />
+          <folding>
+            <marker date="1467495623233" expanded="true" signature="357:486" placeholder="SELECT DISTI... countries" />
+            <marker date="1467495623233" expanded="true" signature="2851:2951" placeholder="SELECT t.* F... tags" />
+            <marker date="1467495623233" expanded="true" signature="3183:3283" placeholder="SELECT t.* F... tags" />
+            <marker date="1467495623233" expanded="true" signature="3944:4044" placeholder="SELECT t.* F... tags" />
+            <marker date="1467495623233" expanded="true" signature="4790:4812" placeholder="SELECT t.* F... tags" />
+            <marker date="1467495623233" expanded="true" signature="5303:5403" placeholder="SELECT t.* F... tags" />
+            <marker date="1467495623233" expanded="true" signature="5965:6031" placeholder="SELECT * FRO... follow_connect" />
+            <marker date="1467495623233" expanded="true" signature="9427:9481" placeholder="SELECT * FRO... stories" />
+            <marker date="1467495623233" expanded="true" signature="9941:10037" placeholder="SELECT story... stories" />
+            <marker date="1467495623233" expanded="true" signature="10193:10308" placeholder="SELECT story... notifications" />
+            <marker date="1467495623233" expanded="true" signature="10919:10981" placeholder="SELECT likes... stories" />
+            <marker date="1467495623233" expanded="true" signature="12665:12822" placeholder="SELECT * FRO... comments" />
+            <marker date="1467495623233" expanded="true" signature="13616:13692" placeholder="SELECT story... stories" />
+            <marker date="1467495623233" expanded="true" signature="14132:14242" placeholder="SELECT * FRO... story_views" />
+            <marker date="1467495623233" expanded="true" signature="15139:15326" placeholder="SELECT * FRO... comments" />
+            <marker date="1467495623233" expanded="true" signature="15390:15540" placeholder="SELECT * FRO... comments" />
+            <marker date="1467495623233" expanded="true" signature="15696:15895" placeholder="SELECT * FRO... comments" />
+            <marker date="1467495623233" expanded="true" signature="15967:16129" placeholder="SELECT * FRO... comments" />
+            <marker date="1467495623233" expanded="true" signature="16255:16421" placeholder="SELECT * FRO... comments" />
+            <marker date="1467495623233" expanded="true" signature="16493:16622" placeholder="SELECT * FRO... comments" />
+            <marker date="1467495623233" expanded="true" signature="17294:17538" placeholder="SELECT s.sto... stories" />
+            <marker date="1467495623233" expanded="true" signature="17314:17398" placeholder="SELECT COUNT... notifications" />
+            <marker date="1467495623233" expanded="true" signature="17411:17513" placeholder="SELECT COUNT... story_views" />
+            <marker date="1467495623233" expanded="true" signature="18429:19042" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="18499:18583" placeholder="SELECT COUNT... notifications" />
+            <marker date="1467495623233" expanded="true" signature="18596:18698" placeholder="SELECT COUNT... story_views" />
+            <marker date="1467495623233" expanded="true" signature="19133:19362" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="19425:19792" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="22603:22985" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="23144:23512" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="23603:23981" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="24126:24243" placeholder="SELECT s.* F... stories" />
+            <marker date="1467495623233" expanded="true" signature="24381:24715" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="24814:25158" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="26721:26843" placeholder="SELECT s.sto... stories" />
+            <marker date="1467495623233" expanded="true" signature="26984:27346" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="27422:27778" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="27906:28231" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="28307:28626" placeholder="SELECT s.*, stories" />
+            <marker date="1467495623233" expanded="true" signature="30409:30527" placeholder="SELECT * FRO... follow_connect" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/stories_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <marker date="1468125023388" expanded="true" signature="485:554" placeholder="SELECT * FRO... stories" />
+            <marker date="1468125023388" expanded="true" signature="934:1327" placeholder="SELECT * FRO... stories" />
+            <marker date="1468125023388" expanded="true" signature="934:1333" placeholder="SELECT * FRO... stories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/stories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.269231">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.153847">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/modok.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ciqg8r75f000lccmen8m1u1j7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.486773">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/custom-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.551724">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <marker date="1468133735817" expanded="true" signature="6636:6894" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9245284">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#165#394#0#PHP" expanded="true" />
+            <marker date="1468175292888" expanded="true" signature="266:362" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/pages/_map.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82258064">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
         </state>
       </provider>

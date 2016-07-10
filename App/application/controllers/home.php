@@ -19,8 +19,7 @@ class Home extends MY_Controller {
         // SET DATA //
         // Setup the data for the views.
         $data['title'] = ucfirst('Travelling Home');
-        // We need to pull in some stories for testing purposes
-        $data['stories'] = $this->stories_model->get_stories(30);
+
         // Load the user navigation that controls the logout, login, account, etc links.
         $data['header_snippets'] = $this->initializeHeaderHTML($data);
 	
