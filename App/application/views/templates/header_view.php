@@ -33,7 +33,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js' },
 			{ googleMaps: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCS8ioWkedaify-sqbZxv5AUujwhYZrWXI&sensor=true' },
 			{ gmaps: '<?= base_url(); ?>assets/scripts/vendors/gmaps.js' },
-			{ twMap: '<?= base_url(); ?>assets/scripts/custom-maps.js' }
+			{ twMap: '<?= base_url(); ?>assets/scripts/custom-maps.js' },
+			{ twMap: '<?= base_url(); ?>assets/scripts/quick-nav.js' }
 		);
 	</script>
 	<!-- end scripts -->
@@ -42,3 +43,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <header class="header">
 	<?= $header_snippets['user_nav_html']; ?>
 </header>
+<?= $header_snippets['quick_nav_html']; ?>

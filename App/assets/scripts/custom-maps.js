@@ -1,11 +1,12 @@
 var documentReady = function() {
     // Initialize the map
-   initializeMap();
+    initializeMap();
 }
 $(document).on('turbolinks:load', documentReady);
+$(document).ready(documentReady);
 
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', initializeMap);
+//google.maps.event.addDomListener(window, 'load', initializeMap);
 
 function initializeMap() {
 
@@ -31,6 +32,7 @@ function initializeMap() {
     var widths = ["256px", "512px", "1024px", "100%"];
     var markerOpacityIncrement = 0.05;
     var markerOpacity = 0.05;
+    window.markers = []
 
     // Let's set up the prev_infowindow variable that we use to close the
     // previously opened info window if a new info window is opened.
@@ -79,7 +81,7 @@ function initializeMap() {
 
     // TO UPDATE : We need to make this more robust and dynamic.
     // Icons for displaying on the map
-    var iconBase = 'http://sandbox.travelledwriters.com/assets/map/icons/';
+    var iconBase = 'http://sandbox.travelledwriters.com/assets/images/map/icons/';
     var icons = {
         continent: {
             icon: iconBase + 'pin.png'
@@ -113,9 +115,10 @@ function initializeMap() {
         }
     };
 
-
+    // This fade in marker is a hack to allow the markers to fade in
+    // we have to do it this way because google markers do not just
+    // fade in.
     var fadeInMarkers = function(marker, markerOpacity) {
-
 
         if (markerOpacity <= 1) {
 
@@ -132,8 +135,8 @@ function initializeMap() {
         } else {
             markerOpacity = 0.05; // reset for next use
         }
-    }
 
+    };
 
     // This function will add a new marker to the map. Make sure the appropriate information
     // is in the marker to make sure it format correctly.
@@ -167,6 +170,8 @@ function initializeMap() {
                 map: map
             });
 
+            window.markers.push(marker);
+
             // Fade in the markers
             /*marker.setOpacity(0);
             fadeInMarkers(marker, 0.05);*/
@@ -191,28 +196,58 @@ function initializeMap() {
         }
 
     }
-
     // This function is used to display the stories that are pulled from the endpoint.
     // Before adding them as markers, we need to take the data returned from the google geolocation point
     // and the stories generated from the endpoint.
-    function createNewStory(stories, story_number) {
-        return function(data) {
+    function createNewStories(stories, delayMarkerLoad, deleteOld) {
 
-            var p = data.results[0].geometry.location
-            var latlng = new google.maps.LatLng(p.lat, p.lng);
+        var newFeatures = [];
 
+        $.each(stories, function(key, story) {
             var newFeature = {
-                position: latlng,
-                type: stories.category,
-                story: stories,
+                position: new google.maps.LatLng(story.lat, story.lng),
+                type: story.category,
+                story: story,
             };
+            newFeatures.push(newFeature);
+        });
 
-            setTimeout(function() {
-                addMarker(newFeature);
-            }, story_number * 15);
+        if (deleteOld !== undefined && deleteOld != 0) {
 
-        };
+            deleteMarkers();
+
+        }
+        if (delayMarkerLoad !== undefined && delayMarkerLoad != 0) {
+
+            $.each(newFeatures, function(key, value) {
+                setTimeout(function() {
+                    addMarker(value);
+                }, ((key + 1) * 15));
+            });
+
+        } else {
+            $.each(newFeatures, function(key, value) {
+                addMarker(value);
+            });
+        }
+
     }
+    function setMapOnAll(map) {
+        for (var i = 0; i < markers.length; i++) {
+            markers[i].setMap(map);
+        }
+    }
+
+    // Removes the markers from the map, but keeps them in the array.
+    function clearMarkers() {
+        setMapOnAll(null);
+    }
+
+    // Deletes all markers in the array by removing references to them.
+    function deleteMarkers() {
+        clearMarkers();
+    }
+
 
     // TO UPDATE : We need to make this super dynamic with the filter functions
     // We will get the list stories to display on the home map
@@ -221,16 +256,13 @@ function initializeMap() {
         url: "stories/ajax/stories_list",
         dataType: "json",
         success: function(stories){
-
-            // TO UPDATE : We need to add lat and long for each story when they are added
-            // This for loop will cycle through the stories that we have in order to get their
-            // geo locations. In the end, we want all stories to have geolocations and this will be a backup.
-            for (var x = 0; x < stories.length; x++) {
-                $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+encodeURI(stories[x].location+','+stories[x].country)+'&sensor=false', createNewStory(stories[x], x));
-            }
+            createNewStories(stories, 1, 0);
         }
     });
 
+    window.createNewStories = createNewStories;
+    window.deleteMarkers = deleteMarkers;
 
 }
+
 

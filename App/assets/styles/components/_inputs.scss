@@ -1,4 +1,4 @@
-.input--default,input,textarea {
+.input--default,input[type=text],textarea {
 	@include appearance(none);
 	@include font__feature;
 	@include transition(0.2s linear);

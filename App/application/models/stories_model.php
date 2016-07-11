@@ -23,16 +23,32 @@ class Stories_model extends CI_Model {
     }
 
     // Get X amount of stories
-    public function get_stories($num = 999999, $order = 'ASC') {
+    public function get_stories($search = array(), $num = 999999, $order = 'ASC') {
+
+        $where = 'WHERE cou.country_id = s.country_id
+            AND cou.continent_id = con.continent_id
+            AND s.category_id = cat.category_id';
+
+        if ($search['categories']) {
+            $categoriesRaw = $search['categories'];
+            $categories = explode(':', $categoriesRaw);
+            $numCategories = count($categories);
+            $where .= ' AND (';
+            for ($c = 0; $c < $numCategories; $c++) {
+                if ($c == ($numCategories - 1)) {
+                    $where .= 's.category_id='.$categories[$c].')';
+                } else {
+                    $where .= 's.category_id='.$categories[$c].' OR ';
+                }
+            }
+        }
 
         // Query to retrieve multiple stories.
         $query = $this->db->query('SELECT s.*, cou.nicename as country, con.nicename as continent, cat.handle as category
             FROM stories s, countries cou, continents con, categories cat
-            WHERE cou.country_id = s.country_id
-            AND cou.continent_id = con.continent_id
-            AND s.category_id = cat.category_id
+            '.$where.'
             GROUP BY s.story_id
-            ORDER BY s.story_title '.$order.' LIMIT '.$num);
+            ORDER BY s.story_id '.$order.' LIMIT '.$num);
 
         // We return it as an array as it's quicker.
         if ($query->num_rows() > 0) {
@@ -40,6 +56,24 @@ class Stories_model extends CI_Model {
         } else {
             return false;
         }
+
+    }
+
+    // Get all of the categories listed on the website.
+    public function get_categories () {
+
+        // Query to retrieve multiple stories.
+        $query = $this->db->query('SELECT cat.*
+            FROM categories cat
+            ORDER BY cat.category_id');
+
+        // We return it as an array as it's quicker.
+        if ($query->num_rows() > 0) {
+            return $query->result_array();
+        } else {
+            return false;
+        }
+
 
     }
 

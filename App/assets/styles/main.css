@@ -3268,7 +3268,7 @@ Used for consistent general-purpose element styling
   background: #F26B57; }
 
 /* Components */
-.input--default, input, textarea {
+.input--default, input[type=text], textarea {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -3286,19 +3286,19 @@ Used for consistent general-purpose element styling
   font-weight: 700;
   padding: 10px;
   width: 100%; }
-  .input--default::-webkit-input-placeholder, input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  .input--default::-webkit-input-placeholder, input[type=text]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #D4D3D3;
     font-style: italic; }
-  .input--default:-moz-placeholder, input:-moz-placeholder, textarea:-moz-placeholder {
+  .input--default:-moz-placeholder, input[type=text]:-moz-placeholder, textarea:-moz-placeholder {
     color: #D4D3D3;
     font-style: italic; }
-  .input--default::-moz-placeholder, input::-moz-placeholder, textarea::-moz-placeholder {
+  .input--default::-moz-placeholder, input[type=text]::-moz-placeholder, textarea::-moz-placeholder {
     color: #D4D3D3;
     font-style: italic; }
-  .input--default:-ms-input-placeholder, input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  .input--default:-ms-input-placeholder, input[type=text]:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color: #D4D3D3;
     font-style: italic; }
-  .input--default:focus, input:focus, textarea:focus {
+  .input--default:focus, input[type=text]:focus, textarea:focus {
     outline: 0;
     border: 1px solid #F26B57; }
 
@@ -3481,7 +3481,7 @@ p {
 .out-box__inner-box {
   box-shadow: none !important;
   background: none;
-  border-radius: 10px !important; }
+  border-radius: 0px !important; }
 
 .box-arrow {
   border-radius: 0px !important; }
@@ -3502,5 +3502,111 @@ p {
   .story-popup_content-box p {
     font-size: 13px;
     margin-bottom: 0px; }
+
+#filter-overlay {
+  z-index: 3;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0;
+  visibility: hidden; }
+  #filter-overlay .filter-overlay__the-cover {
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1; }
+  #filter-overlay .filter-overlay__the-loader {
+    width: 150px;
+    height: 150px;
+    background: url("../images/quick-nav/loading.gif") center no-repeat;
+    -webkit-background-size: 70px;
+    background-size: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    position: absolute;
+    z-index: 2; }
+  #filter-overlay.show {
+    opacity: 1;
+    visibility: visible; }
+
+#quick-nav {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  width: 400px;
+  height: calc(100vh - 100px);
+  position: absolute;
+  bottom: 0px;
+  background: #FFFFFF;
+  z-index: 2; }
+  #quick-nav #nav-toggle {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background: url("../images/quick-nav/open-arrow.svg") center no-repeat;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+    right: -40px;
+    top: 50%;
+    border-radius: 50%;
+    margin-top: -35px;
+    cursor: pointer; }
+  #quick-nav.open {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0); }
+    #quick-nav.open #nav-toggle {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg); }
+  #quick-nav h1 {
+    font-family: "Rasa", serif;
+    line-height: 1.3;
+    font-size: 30px;
+    font-size: 1.875rem;
+    line-height: 1; }
+  #quick-nav .filters .filters__mood-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px; }
+    #quick-nav .filters .filters__mood-container .mood-container__category {
+      width: 50%;
+      float: left; }
+      #quick-nav .filters .filters__mood-container .mood-container__category label {
+        cursor: pointer;
+        width: 100%;
+        float: left;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 0.05em;
+        line-height: 1.3;
+        font-size: 13px;
+        font-size: 0.8125rem;
+        line-height: 1; }
 
 /*# sourceMappingURL=main.css.map */

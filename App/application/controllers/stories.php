@@ -83,10 +83,14 @@ class Stories extends MY_Controller
 
         echo $this->$function();
 
-
     }
     function stories_list () {
-        $stories = $this->stories_model->get_stories();
+
+
+
+        $search['categories'] = $this->input->get('categories');
+
+        $stories = $this->stories_model->get_stories($search);
 
         return json_encode($stories);
     }
