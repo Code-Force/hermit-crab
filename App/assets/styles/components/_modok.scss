@@ -10,6 +10,7 @@
 	top: 0;
 	visibility: hidden;
 	width: 100vw;
+	z-index: 1;
 	
 	.modok__overlay {
 		background: rgba($color__white, 0.8);

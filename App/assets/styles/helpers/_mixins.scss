@@ -208,3 +208,8 @@ Used for consistent general-purpose element styling
 	padding: 0;
 	width: auto;
 }
+@mixin link {
+	border-bottom: 1px solid $color__feature;
+	display: inline-block;
+	line-height: 0.9;
+}
