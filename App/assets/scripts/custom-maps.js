@@ -2,8 +2,9 @@ var documentReady = function() {
     // Initialize the map
     initializeMap();
 }
-$(document).on('turbolinks:load', documentReady);
-$(document).ready(documentReady);
+
+window.addEventListener('load', documentReady);
+document.addEventListener('turbolinks:load', documentReady);
 
 // When the window has finished loading create our google map below
 //google.maps.event.addDomListener(window, 'load', initializeMap);

@@ -3,9 +3,9 @@ var documentReady = function() {
     // Initialize the map
     initializeQuickNav();
 };
-$(document).on('turbolinks:load', documentReady);
-$(document).ready(documentReady);
 
+window.addEventListener('load', documentReady);
+document.addEventListener('turbolinks:load', documentReady);
 
 function initializeQuickNav () {
     $(document).on('click', '#nav-toggle', function () {

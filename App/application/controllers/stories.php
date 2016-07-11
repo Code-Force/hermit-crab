@@ -30,6 +30,9 @@ class Stories extends MY_Controller
         // Setup the user data for use in the views.
         // sessionSetup is in MY_Controller
         $data['user'] = $this->sessionSetup();
+
+        $data['categories'] = $this->stories_model->get_categories();
+
         // Load the user navigation that controls the logout, login, account, etc links.
         $data['header_snippets'] = $this->initializeHeaderHTML($data);
 

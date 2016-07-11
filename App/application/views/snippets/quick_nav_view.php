@@ -8,16 +8,19 @@
 		<div class="filters__mood-container">
 			<?php
 
-			foreach ($categories as $category) {
-				$quick_nav_html .= '
+			if (isset($categories)) {
+
+				foreach ($categories as $category) {
+					$quick_nav_html .= '
 				<div class="mood-container__category">
 					<label><input type="checkbox" class="filter-category" checked="checked" name="filter-categories" value="'.$category['category_id'].'" /> '.$category['name'].'</label>
 				</div>';
-			 }
-			$quick_nav_html .= '
+				}
+				$quick_nav_html .= '
 				<div class="mood-container__category">
 					<a href="#" class="clear-filters" data-clear-type="checkbox" data-clear-identifier="category">Clear Categories</a>
 				</div>';
+			}
 			?>
 			<?php
 			echo $quick_nav_html;
