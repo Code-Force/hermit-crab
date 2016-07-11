@@ -3,9 +3,10 @@ var documentReady = function() {
    initializeMap();
 }
 $(document).on('turbolinks:load', documentReady);
+$(document).on('ready', documentReady);
 
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', initializeMap);
+/*google.maps.event.addDomListener(window, 'load', initializeMap);*/
 
 function initializeMap() {
 

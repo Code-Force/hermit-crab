@@ -1,7 +1,8 @@
 head(function() {
 	var documentReady = function() {
-		var scroll = new IScroll('body');
+		$('body').smoothWheel();
 	}
-	$(document).ready(documentReady);
-	$(document).on('turbolinks:load', documentReady);
+	
+	window.addEventListener('load', documentReady);
+	document.addEventListener('turbolinks:load', documentReady);
 })

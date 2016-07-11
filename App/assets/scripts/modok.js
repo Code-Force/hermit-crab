@@ -39,12 +39,14 @@ function modokActivate($this) {
 				var modalID = 'modok-' + (Math.floor((Math.random() * 1000) + 1));
 				/* Create the modal element */
 				var modal = ''+
-					'<div id="' + modalID + '" class="modok">' +
+					'<div id="' + modalID + '" data-scroll="' + $(document).scrollTop() + '" class="modok">' +
 						'<div class="modok__overlay modok-close"></div>' +
 						'<button class="modok__close-button modok-close"><i class="fa fa-times" aria-hidden="true"></i></button>' +
 						'<div class="modok__content">' + data + '</div>' +
 					'</div>';
-				$('body').append(modal).addClass('modok--lock');
+				
+				var offsetFromTop = 0 - $(document).scrollTop();
+				$('body').append(modal).css('top', offsetFromTop).addClass('modok--lock');
 				/* Activate modal */
 				setTimeout(function() {
 					$('#' + modalID).addClass('modok--active');
@@ -60,10 +62,15 @@ function modokActivate($this) {
 	}
 }
 function modokClose($this) {
-	$this.parents('.modok').removeClass('modok--active');
+	var modok = $this.parents('.modok');
+	var scrollOffset = modok.data('scroll');
+	
+	modok.removeClass('modok--active');
+	
+	$(document).scrollTop(scrollOffset);
 	$('body').removeClass('modok--lock');
 	setTimeout(function() {
-		$this.parents('.modok').remove();
+		modok.remove();
 	}, 300);
 }
 function modokCloseAll() {

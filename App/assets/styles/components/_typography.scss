@@ -32,9 +32,7 @@ sub {
 }
 p, span {
 	a {
-	border-bottom: 1px solid $color__feature;
-	display: inline-block;
-	line-height: 0.9;
+		@include link;
 	}
 }
 p {
