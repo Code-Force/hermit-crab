@@ -1,4 +1,4 @@
-<div class="story">
+<div class="story" data-id="<?php echo $story['story_id']; ?>">
 	<div class="story__featured-image">
 		<img src="<?= base_url(); ?>assets/images/stock/splash-bg.jpg" />
 		<div class="featured-image__upload">

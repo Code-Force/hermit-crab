@@ -32,6 +32,8 @@ head(function() {
 				}
 			}
 
+			payload.append('id', $('.story').data('id'));
+			
 			// Send the update content to the server to be saved
 			function onStateChange(ev) {
 				// Check if the request is finished
