@@ -22,6 +22,32 @@ class Stories_model extends CI_Model {
 
     }
 
+    public function save_story($story_content) {
+
+        $update_fields = '';
+        if (isset($story_content['story_title'])) {
+            $update_fields .= 'story_title = "'.$story_content['story_title'].'",';
+        }
+        if (isset($story_content['story_content'])) {
+            $update_fields .= 'story = "'.addslashes($story_content['story_content']).'",';
+        }
+
+
+        $this->db->trans_start();
+        $this->db->query('UPDATE stories SET '.$update_fields.' date_updated = now() WHERE story_id = '.$story_content['story_id']);
+        $this->db->trans_complete();
+        if ($this->db->affected_rows() == '1') {
+            return TRUE;
+        } else {
+            // any trans error?
+            if ($this->db->trans_status() === FALSE) {
+                return false;
+            }
+            return true;
+        }
+
+    }
+
     // Get X amount of stories
     public function get_stories($search = array(), $num = 999999, $order = 'ASC') {
 

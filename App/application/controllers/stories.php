@@ -82,9 +82,19 @@ class Stories extends MY_Controller
     }
     function save () {
 
-        $save_data = $this->input->post();
-var_dump($save_data);
+        $data['story_id'] = $this->input->post('story-id');
+        $content = $this->input->post();
+        $data['story_title'] = $this->input->post('story-title');
+        $data['story_content'] = $this->input->post('story-content');
+        $stories = $this->stories_model->save_story($data);
+
+        if ($stories) {
+            echo 'SUCCESS MOTHAFUCKA';
+        } else {
+            echo 'FAILURE!!';
+        }
         exit();
+
     }
 
     function ajax($function = 'stories_list') {
