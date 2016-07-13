@@ -32,7 +32,7 @@ head(function() {
 				}
 			}
 
-			payload.append('id', $('.story').data('id'));
+			payload.append('story-id', $('.story').data('id'));
 			
 			// Send the update content to the server to be saved
 			function onStateChange(ev) {
