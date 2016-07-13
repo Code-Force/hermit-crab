@@ -80,7 +80,12 @@ class Stories extends MY_Controller
 
         }
     }
+    function save () {
 
+        $save_data = $this->input->post();
+var_dump($save_data);
+        exit();
+    }
 
     function ajax($function = 'stories_list') {
 
@@ -97,4 +102,5 @@ class Stories extends MY_Controller
 
         return json_encode($stories);
     }
+
 }
