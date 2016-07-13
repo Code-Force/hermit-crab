@@ -46,8 +46,6 @@ head(function() {
 					}
 				}
 			};
-
-			console.log(payload);
 			
 			xhr = new XMLHttpRequest();
 			xhr.addEventListener('readystatechange', onStateChange);
