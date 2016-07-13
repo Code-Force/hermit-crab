@@ -47,9 +47,11 @@ head(function() {
 				}
 			};
 
+			console.log(payload);
+			
 			xhr = new XMLHttpRequest();
 			xhr.addEventListener('readystatechange', onStateChange);
-			xhr.open('POST', '/save-my-page');
+			xhr.open('POST', '/stories/save');
 			xhr.send(payload);
 		});
 		
