@@ -4086,14 +4086,15 @@ body {
     margin: 20px 0; }
     /* line 73, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
     .story .story__wrapper .wrapper__content .content__body img {
+      padding: 10px;
       max-width: 100%; }
 
-/* line 79, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+/* line 80, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
 .story .story__comment {
   background-color: #F6F4F4;
   padding: 20px 0; }
 
-/* line 86, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+/* line 87, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
 .story.story--editing .story__featured-image .featured-image__upload {
   opacity: 1;
   visibility: visible; }
