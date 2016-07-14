@@ -1,4 +1,4 @@
-<div class="story" data-id="<?php echo $story['story_id']; ?>">
+<div class="story" data-id="<?= $story['story_id']; ?>">
 	<div class="story__featured-image">
 		<img src="<?= base_url(); ?>assets/images/stock/splash-bg.jpg" />
 		<div class="featured-image__upload">
@@ -19,21 +19,21 @@
 					?>
 				</time>
 				<div class="header__title" data-editable data-name="story-title">
-					<h1><?php echo strip_tags($title); ?></h1>
+					<h1><?= strip_tags($title); ?></h1>
 				</div>
 				<div class="header__author">
 					<a href="" class="author__image">
 						<img />
 					</a>
 					<a href="" rel="author" class="author__name">
-						<?php echo $story['user_id']; ?>
+						<?= $story['user_id']; ?>
 					</a>
 				</div>
 			</header>
 
 			<!-- story content -->
 			<main class="content__body" data-editable data-name="story-content" >
-				<?php echo $story['story']; ?>
+				<?= $story['story']; ?>
 			</main>
 
 			<!-- tags -->

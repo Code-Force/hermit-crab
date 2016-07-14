@@ -28,7 +28,12 @@ head(function() {
 			payload = new FormData();
 			for (name in regions) {
 				if (regions.hasOwnProperty(name)) {
-					payload.append(name, regions[name]);
+					var content = regions[name];
+					if(name == 'story-title') {
+						content = stripHTML(content);
+					}
+					
+					payload.append(name, content);
 				}
 			}
 
