@@ -26,7 +26,7 @@ class Stories_model extends CI_Model {
 
         $update_fields = '';
         if (isset($story_content['story_title'])) {
-            $update_fields .= 'story_title = "'.$story_content['story_title'].'",';
+            $update_fields .= 'story_title = "'.trim($story_content['story_title']).'",';
         }
         if (isset($story_content['story_content'])) {
             $update_fields .= 'story = "'.addslashes($story_content['story_content']).'",';
