@@ -1,45 +1,22 @@
-<p>
-Never in my life did I think one night could incorporate Spiderman, Madonna, The Masksss, Michael Jackson, the YMCA and Jesus. But that just scratches the surface of my&amp;nbsp;evening at Coco Bongo!
-</p>
-<p>
-<img alt src="/assets/uploads/5bc0362f8e5e9e6cdf36382223a45889/40dd4aa64e8d0522a73f2c6710b4c01b.jpg">
-</p>
-<p>
-When I booked my holiday to Cancun the one place everyone recommended was ‘Coco Bongo’ – a club that apparently puts Vegas to shame. So, on the second last night of my vacation we decided to make it one to remember. Myself, my friend and the random but undeniably wonderful group of people we’d met on holiday bought our tickets to Coco Bongo (after a lengthy period of bargaining on what was apparently a ‘set-price which simply could not be reduced’… funny what a bit of bartering can do).
-</p>
-<p>
-So, after getting glammed up, practically spitting out a margarita (who seriously likes drinking salt?) and downing an inevitable shot or two which seemed to come hand-in-hand with my new friend Johan, we all headed to Coco Bongo. Hello massive queue! Now, the woman who I’d been bargaining with earlier had agreed to take us to Coco Bongo and get us in straight away. No, no, no - we would make our own way there I’d told her. Well didn’t I feel stupid when she and her group of followers walked right past us into the club!
-</p>
-<p>
-<img alt src="/assets/uploads/5bc0362f8e5e9e6cdf36382223a45889/809b7781db94172dc010257fa23ba863.jpg">
-</p>
-<p>
-<img alt src="/assets/uploads/5bc0362f8e5e9e6cdf36382223a45889/d751951db6dd443a2fbc9b2817d108ff.jpg">
-</p>
-<p>
-Never mind, usually I’d hate waiting, but the endless array of tequila shots and vodka cranberry made it a lot easier. That, and watching my friend getting picked up by Spiderman – priceless! Oh, and I “conquered” my childhood fear too. By that I mean I didn’t go running off like a baby. I’ve been scared of The Mask since I dreamt he kidnapped me from school and hung me on the wall in a bin bag. Talk about an overactive imagination! Anyway there he was, only this time he had a friend – The Mexican Mask. I’m sure he was meant to be the friendly version, but that green face and scarily sarcastic grin is plain freaky if you ask me!
-</p>
-<p>
-<img alt src="/assets/uploads/5bc0362f8e5e9e6cdf36382223a45889/a117468b6bba5addfc587ed45240e102.jpg">
-</p>
-<p>
-Once we got into the club we headed to the balcony, until I had brilliant idea number two – I wanted to be in amongst the action downstairs. So I led the way with a group of nine behind me. The phrase ‘a tin of sardines’ comes to mind. Despite finding a good spot on the stairs I had managed to lose seven people. So, me, Marcel and Gemma stayed put for a while and enjoyed the fascinating productions. The Rise of Jesus was a real highlight for me. The aerobatic performance was intense and dramatic – trust me, Coco Bongo is something else! Even the Madonna and Michael Jackson performances are incredible, and I’m never the sort of person to sit in a pub on holiday and watch a fat middle aged man take on Elvis.
-</p>
-<p>
-Gemma, being a holiday rep, had seen the show a million times before so decided to go and find the others. Me, needing a wee, decided to follow a little while later only to get the third degree for leaving my friend (with other people mind you). Handsome Dutch man or the girl I have woken up next to for the past seven days? I rest my case.
-</p>
-<p>
-<img alt src="/assets/uploads/5bc0362f8e5e9e6cdf36382223a45889/bdf9d12e04167401f1f17128180c571f.jpg">
-</p>
-<p>
-So, whilst we let the club die down a bit, we all spent some time together in the adjoining bar. Who cares what production we were missing? It doesn’t matter what beautiful country you are visiting in my opinion; the people you meet are what truly make your vacation. And these people had made my holiday one that would take a while to get over. We finished our night watching the fantastic Spiderman and Green Goblin production and then I played the role of sleepy-drunk dancing away eyes half-shut holding a glow stick.
-</p>
-<p>
-It was time to leave, but the night wasn’t over yet. What’s that I see when I leave the club? Subway! Yes, I did the traditionally English thing of getting excited over a fast food place I could go to every day of the week if I really wanted to. But I was drunk, so I’m forgiven.
-</p>
-<p>
-After eating half of the sandwich like it was my last supper, missing my mouth with the rest (yes, I’m such an attractive drunk) and watching some random man attempt to go for a wee on an invisible toilet by the side of Subway, we headed home. A bus journey filled with young boys making rude gestures was the only thing left to endure. But they were harmless really and I was too tired to care. The end to an incredible night, the end of a memorable holiday, but the beginning of new friendships and a thumping hangover!
-</p>
-<p>
-
-</p>
+<p><strong>DANCING with the MASAI</strong></p>
+<p><em>Our visit to Nairobi...by Gail Brighton&nbsp;</em></p>
+<p>As we stepped off of the plane we were greeted by the warm sunshine of the Kenyan skies. We took a deep breath and prepared ourselves for a week long adventure in the city of Nairobi. As we scanned our immediate view, a virtual army of airport porters were lined up to take care of our needs, or so we thought.</p>
+<p>As we approached these tall, athletic young fellows, they suddenly broke rank and each one virtually swarmed a visitor. One fellow grabbed my husband&rsquo;s luggage and fled to the left. Another took possession of my luggage and ran to the right. We stood for a moment in shock unprepared for the &lsquo;greeting&rsquo;. Once composed we began a chase of our property. For a moment we were totally apart in our quests!</p>
+<p>With sign language and some pleading looks, we were able to retrieve our bags. It was time to pause and secure a referred taxi service, and so we did. An hour later we arrived at our reserved destination accommodation. It was a large wooden plantation style guest house, complete with a vast open veranda full of guests sipping tea and munching on cream cakes. The scene restored our faith in choosing Nairobi as a holiday adventure. After receiving a gracious welcome, the delicious meal, and meeting a few of the guests, the hours of flying took their toll on our bodies and we slipped away to catch some needed sleep.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>As dawn broke we were awoken to breakfast in bed; a delicious feast of fruits, some familiar and some unknown, and tasty Kenyan coffee. Our day was off to a good start, and so was my husband Hap. He was off to check in at The Conference of World Health which would occupy his time for the next five days. The evenings were carefully scheduled with numerous social events for the attendees and their guests.&nbsp;</p>
+<p>I, on the other hand, had a day totally free, and more to come. I set off that first morning full of enthusiasm to explore Nairobi. Totally unfamiliar as to exactly where I was, I paused and chose a landmark to make sure I got back to our lodgings later in the day. A tall structure reminding me of an English Folly stood out well on the landscape.</p>
+<p>As my wander began, I found an abundance of produce markets which were particularly interesting in their varieties of products, many unknown to me. Vendors were wonderful to chat to and explain their wares. In outdoor spaces tables were filled with arts and crafts mainly brought to town by the peoples of the Masai Tribe. Beautiful handcrafted bead works, animal prints and colorful fabrics, carved wooden wares; masks, statues, kitchen bowls. All the vendors were friendly and informative about their items. Never did anyone try to talk me into purchasing, which was a welcome relief. I was quietly learning more and more about an exciting culture, without a worry about my safety. As the sun left the mid-sky I made my way back to my 'chosen landmark' and the peace of our guest house.</p>
+<img src="/assets/uploads/fb82fed4dc4fb7f172b87f43117ee0ab/320dd56bf5f283f47faf5f15851e111c.png" alt="" />
+<p>The days in Nairobi quickly slipped by as Hap enjoyed his conference, and I kept my routine of learning and exploring. In the evenings we met at the organized social events with other delegates and swapped stories of the day&rsquo;s adventures while eating sumptuous meals.</p>
+<p>Months before, when Hap had enrolled for the conference, we were given the option of an extra day of touring. We signed on to visit a Masai Village, experience their life, and have the services of an English speaking guide. The last day arrived all too soon as we set off early in the morning with our driver in a rather beat up, aged, open-air Land Rover. We learned we were the only delegates who had chosen to take on the adventure which was fortunate for us.</p>
+<p>Our host took it upon himself to make sure we saw everything on the distant drive over sand and dirt roads: Every animal you associate with Africa, many trees and desert flowers, and an unforgettable treasure of people walking into the city with their wares to sell or trade at the markets. Within a few hours we arrived at our destination, an inhabited and lively Masai Village. Children were everywhere playing or helping with chores of everyday living. We visited inside the homes constructed by the women and made of twigs, mud, urine and dried cow dung. We marveled at the efficiency of an open fire in the center of the structure vented through an open gap in the ceiling. We met the elders who governed the village. Listening intently, we heard from the guide of the bravery of the males protecting their families and herds of livestock, and constantly roaming the area for &lsquo;greener pastures&rsquo;. A nomadic quest.</p>
+<p>As I have said, our guide was attentive, considerate and knowledgeable. He was a little boastful when he informed the group Hap was a medical doctor in Canada. As this information passed through the group the mood suddenly took a change. An elder stepped forward and taking Hap by the arm he whisked him away to another larger building. I was left in awe with an uneasy feeling until our guide informed me he had been taken to meet the village witch doctor, or medicine man. Their visit seemed to be never ending as the guide and I chatted and commented that all the males in the compound had disappeared.</p>
+<p>Hap eventually reappeared and he was being regally followed by all the males in the Masai Village. They had red cloth draped over their bodies, necks and arms were bedecked with colorful beaded pieces such as I had seen in town, and each carried a tall, tapered wooden staff. I clutched my guides arm whispering "What&rsquo;s happening?"</p>
+<p>His reply: "They have been told to dance for you". The next scene was simply magical. Arms were united in the air. Feet were up and down moving at a rapid pace. We were brought into the dance. We were pushed out of the dance. The final dance was fast, strong, almost war like, you could feel animosity. The dancers seemed momentarily in a trance, splitting only to grasp our hands making us spin wildly in a circle. As quickly as it started, it was over.</p>
+<p>An elder moved to the center of the group to say farewell and beckoned Hap to join him and presented gifts from the medicine man; a crudely carved statue of himself and a copy of his healing &lsquo;broom wand&rsquo; complete with bead work and goat&rsquo;s hair bristles. Hap appeared overcome with the honor.</p>
+<img src="/assets/uploads/fb82fed4dc4fb7f172b87f43117ee0ab/ba0a270f5d711884f53b60b0515a44f8.png" alt="" width="201" height="268" />
+<img src="/assets/uploads/fb82fed4dc4fb7f172b87f43117ee0ab/75f6b88dd1c64702ab3269464bd9e949.png" alt="" width="201" height="274" />
+<p style="text-align: center;">As evening set, we were bouncing&nbsp;&nbsp; along the road towards our 'home' in Nairobi. Our guide and I were idly chatting about the wonderful day. I innocently asked about the almost &lsquo;war-like&rsquo; segment of the dance.</p>
+<p style="text-align: center;">The guided smiled asking if I was sure I wanted to know. As I nodded yes, he became serious and said; "That is a traditional Masai Performance depicting the animosity the tribe feels about the white man&rsquo;s interference with their way of life."</p>
+<p style="text-align: center;">With those words, I maybe understood why no other delegates from our group had joined our excursion.</p>
+<p style="text-align: center;">Perhaps they knew!</p>
