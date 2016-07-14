@@ -46,7 +46,8 @@ class Stories extends MY_Controller
             // Retrieve the story based on the slug provided and
             // stick the query result into the variable.
             $the_story = $this->dbOneRecordArrayFormat($this->stories_model->get_story($story_slug, 'slug'));
-
+            $the_story['profile'] = base_url().'assets/users/'.$the_story['folder'].'/small/'.$the_story['profile_photo'];
+            
             // If the story returned and it exists, we continue the process.
             // If there is no story, we need to show the user there is no story.
             if ($the_story) {

@@ -11,7 +11,7 @@ class Stories_model extends CI_Model {
     public function get_story($search_qry, $method = 'story_id') {
 
         // Query to retreive a single story.
-        $query = $this->db->query('SELECT * FROM stories s WHERE '.$method.' = "'.$search_qry.'" LIMIT 1');
+        $query = $this->db->query('SELECT s.*, u.fullname, username, folder, profile_photo FROM stories s, users u WHERE s.'.$method.' = "'.$search_qry.'" AND u.user_id = s.user_id GROUP BY s.story_id LIMIT 1');
 
         // We return it as an array as it's quicker.
         if ($query->num_rows() == 1) {
