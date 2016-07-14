@@ -19,7 +19,7 @@
 					?>
 				</time>
 				<div class="header__title" data-editable data-name="story-title">
-					<h1><?php echo $title; ?></h1>
+					<h1><?php echo strip_tags($title); ?></h1>
 				</div>
 				<div class="header__author">
 					<a href="" class="author__image">
