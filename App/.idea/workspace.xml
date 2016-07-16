@@ -72,27 +72,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stories.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stories.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/stories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45519713">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state vertical-scroll-proportion="-20.153847">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stories_model.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stories_model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/stories_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.109091">
-              <caret line="23" column="0" selection-start-line="13" selection-start-column="90" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.32136106">
+              <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
               <folding>
-                <marker date="1468456497436" expanded="true" signature="485:658" placeholder="SELECT * FRO... stories" />
-                <marker date="1468456497436" expanded="true" signature="1302:1378" placeholder="UPDATE stori... " />
-                <marker date="1468456497436" expanded="true" signature="2603:2868" placeholder="SELECT * FRO... stories" />
-                <marker date="1468456497436" expanded="true" signature="2603:2874" placeholder="SELECT * FRO... stories" />
-                <marker date="1468456497436" expanded="true" signature="3252:3333" placeholder="SELECT cat.*... categories" />
+                <marker date="1468457239039" expanded="true" signature="485:658" placeholder="SELECT * FRO... stories" />
+                <marker date="1468457239039" expanded="true" signature="1308:1384" placeholder="UPDATE stori... " />
+                <marker date="1468457239039" expanded="true" signature="2609:2874" placeholder="SELECT * FRO... stories" />
+                <marker date="1468457239039" expanded="true" signature="2609:2880" placeholder="SELECT * FRO... stories" />
+                <marker date="1468457239039" expanded="true" signature="3258:3339" placeholder="SELECT cat.*... categories" />
               </folding>
             </state>
           </provider>
@@ -101,8 +101,8 @@
       <file leaf-file-name="story_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/stories/story_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -126,7 +126,7 @@
       <file leaf-file-name="users_model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/users_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.730769">
+            <state vertical-scroll-proportion="-22.23077">
               <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <marker date="1467566526212" expanded="true" signature="425:544" placeholder="SELECT u.use... users" />
@@ -174,8 +174,8 @@
         <option value="$PROJECT_DIR$/assets/scripts/custom-maps.js" />
         <option value="$PROJECT_DIR$/assets/scripts/quick-nav.js" />
         <option value="$PROJECT_DIR$/application/models/.php" />
-        <option value="$PROJECT_DIR$/application/models/stories_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/stories.php" />
+        <option value="$PROJECT_DIR$/application/models/stories_model.php" />
       </list>
     </option>
   </component>
@@ -1128,20 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/users_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.730769">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <marker date="1467566526212" expanded="true" signature="425:544" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1063:1145" placeholder="SELECT u.use... users" />
-            <marker date="1467566526212" expanded="true" signature="1252:1325" placeholder="SELECT u.ema... users" />
-            <marker date="1467566526212" expanded="true" signature="1769:1906" placeholder="INSERT INTO users... " />
-            <marker date="1467566526212" expanded="true" signature="2538:2608" placeholder="SELECT u.use... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
@@ -1174,33 +1160,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/stories_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/stories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.109091">
-          <caret line="23" column="0" selection-start-line="13" selection-start-column="90" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="-20.153847">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/users_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
-            <marker date="1468456497436" expanded="true" signature="485:658" placeholder="SELECT * FRO... stories" />
-            <marker date="1468456497436" expanded="true" signature="1302:1378" placeholder="UPDATE stori... " />
-            <marker date="1468456497436" expanded="true" signature="2603:2868" placeholder="SELECT * FRO... stories" />
-            <marker date="1468456497436" expanded="true" signature="2603:2874" placeholder="SELECT * FRO... stories" />
-            <marker date="1468456497436" expanded="true" signature="3252:3333" placeholder="SELECT cat.*... categories" />
+            <marker date="1467566526212" expanded="true" signature="425:544" placeholder="SELECT u.use... users" />
+            <marker date="1467566526212" expanded="true" signature="1063:1145" placeholder="SELECT u.use... users" />
+            <marker date="1467566526212" expanded="true" signature="1252:1325" placeholder="SELECT u.ema... users" />
+            <marker date="1467566526212" expanded="true" signature="1769:1906" placeholder="INSERT INTO users... " />
+            <marker date="1467566526212" expanded="true" signature="2538:2608" placeholder="SELECT u.use... users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/stories/story_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/stories.php">
+    <entry file="file://$PROJECT_DIR$/application/models/stories_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45519713">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="0.32136106">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+          <folding>
+            <marker date="1468457239039" expanded="true" signature="485:658" placeholder="SELECT * FRO... stories" />
+            <marker date="1468457239039" expanded="true" signature="1308:1384" placeholder="UPDATE stori... " />
+            <marker date="1468457239039" expanded="true" signature="2609:2874" placeholder="SELECT * FRO... stories" />
+            <marker date="1468457239039" expanded="true" signature="2609:2880" placeholder="SELECT * FRO... stories" />
+            <marker date="1468457239039" expanded="true" signature="3258:3339" placeholder="SELECT cat.*... categories" />
+          </folding>
         </state>
       </provider>
     </entry>
