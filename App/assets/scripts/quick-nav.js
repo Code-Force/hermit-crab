@@ -8,17 +8,18 @@ window.addEventListener('load', documentReady);
 document.addEventListener('turbolinks:load', documentReady);
 
 function initializeQuickNav () {
-    $(document).on('click', '#nav-toggle', function () {
-       $('#quick-nav').toggleClass('open');
+    $('body').on('click', '#nav-toggle', function () {
+
+        $('#quick-nav').toggleClass('open');
     });
 
-    $(document).on('change', '.filter-category', function() {
+    $('body').on('change', '.filter-category', function() {
 
         updateMarkers();
 
     });
 
-    $(document).on('click', '.clear-filters', function(e) {
+    $('body').on('click', '.clear-filters', function(e) {
         e.preventDefault();
 
         var clearIdentifier = $(this).data('clear-identifier');

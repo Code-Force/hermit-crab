@@ -38,15 +38,28 @@
   }
 }
 #quick-nav {
+
   @include transition(0.5s ease-in-out);
-  @include transform(translateX(-100%));
+  /*@include transform(translateX(-100%));*/
   width: 400px;
 
-  height: calc(100vh - 100px);
+  left: 0px;
+  height: 100vh;
   position: absolute;
   bottom: 0px;
   background: $color__white;
   z-index:2;
+
+  .quick-nav__logo-holder {
+    height: auto;
+    padding: 20px;
+    width:  100%;
+
+    .logo-holder__logo {
+      height: auto;
+      max-width: 60px;
+    }
+  }
 
   #nav-toggle {
 
@@ -66,14 +79,14 @@
 
   }
 
-  &.open {
+/*  &.open {
     @include transform(translateX(0));
 
     #nav-toggle {
       @include transform(rotate(0deg));
     }
 
-  }
+  }*/
 
   h1 {
     @include font__primary;

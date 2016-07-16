@@ -1,5 +1,9 @@
 <div id="quick-nav">
-	<h1>This is the quick nav</h1>
+	<div class="quick-nav__logo-holder">
+		<a href="/">
+			<img class="logo-holder__logo" src="<?= base_url(); ?>assets/images/logo/logo_badge--300.png" />
+		</a>
+	</div>
 	<?php
 	$quick_nav_html = '';
 	?>
@@ -28,7 +32,7 @@
 		</div>
 	</div>
 
-	<div id="nav-toggle"></div>
+	<!--<div id="nav-toggle"></div>-->
 </div>
 <div id="filter-overlay">
 	<div class="filter-overlay__the-cover">
