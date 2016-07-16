@@ -42,12 +42,20 @@
 			.content__header {
 				.header__date {
 					@include font__feature;
-					@include font__size(15px);
-					color: $color__grey--dark;
 					display: block;
 					font-style: italic;
-					margin-bottom: 30px;
+					margin-bottom: 20px;
 					text-transform: uppercase;
+					
+					.date__created {
+						@include font__size(15px);
+						color: $color__grey--dark;
+					}
+					.date__update {
+						@include font__size(12px);
+						color: $color__grey--light;
+						margin-top: 5px;
+					}
 				}
 				.header__title {
 					text-align: center;
@@ -57,19 +65,35 @@
 					text-align: center;
 					
 					.author__image {
-						border-radius: 50%;
+						display: inline-block;
+						font-size: 14px;
+						height: 45px;
+						margin-right: 5px;
+						vertical-align: middle;
+						width: 45px;
+						
+						img {
+							@include transform(translate(-50%,-50%));
+							border-radius: 50%;
+							left: 50%;
+							max-height: 100%;
+							max-width: 100%;
+							position: relative;
+							top: 50%;
+						}
 					}
 					.author__name {
 						@include font__feature;
-						@include font__size(20px);
+						@include font__size(16px);
 						color: $color__feature;
 						font-weight: 700;
 						text-transform: uppercase;
+						vertical-align: middle;
 					}
 				}
 			}
 			.content__body {
-				margin: 20px 0;
+				margin: 40px 0 20px 0;
 				img {
 					padding: 10px;
 					max-width: 100%;

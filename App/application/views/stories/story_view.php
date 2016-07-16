@@ -11,22 +11,34 @@
 		<article class="wrapper__content container">
 			<!-- article title, date and author -->
 			<header class="content__header">
-				<time class="header__date">
-					<?php
-						$date = strtotime($story['date_posted']);
-						$date = date("F t, Y", $date);
-						echo $date;
-					?>
-				</time>
+				<div class="header__date">
+					<time class="date__created">
+						<?php
+							$date = strtotime($story['date_posted']);
+							$date = date("F t, Y", $date);
+							echo $date;
+						?>
+					</time>
+					<div class="date__update">
+						Last updated on 
+						<time>
+							<?php
+								$date = strtotime($story['date_updated']);
+								$date = date("F t, Y", $date);
+								echo $date;
+							?>
+						</time>
+					</div>
+				</div>
 				<div class="header__title" data-editable data-name="story-title">
 					<h1><?= strip_tags($title); ?></h1>
 				</div>
 				<div class="header__author">
-					<a href="" class="author__image">
-						<img />
+					<a href="<?= base_url() . $story['username'] ?>" class="author__image">
+						<img src="<?= $story['profile'] ?>" />
 					</a>
-					<a href="" rel="author" class="author__name">
-						<?= $story['user_id']; ?>
+					<a href="<?= base_url() . $story['username'] ?>" rel="author" class="author__name">
+						<?= $story['fullname']; ?>
 					</a>
 				</div>
 			</header>
