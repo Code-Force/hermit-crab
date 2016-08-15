@@ -24,7 +24,11 @@ class Home extends MY_Controller {
 
         // Load the user navigation that controls the logout, login, account, etc links.
         $data['header_snippets'] = $this->initializeHeaderHTML($data);
-	
+        $data['custom_js'] = array(
+            'googleMaps' => 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCS8ioWkedaify-sqbZxv5AUujwhYZrWXI&sensor=true',
+            'gmaps' => base_url().'assets/scripts/vendors/gmaps.js',
+            'twMap' => base_url().'assets/scripts/custom-maps.js',
+        );
 
         // LOAD VIEWS //
         // Gotta load up the header and footer views as well as the main page view.

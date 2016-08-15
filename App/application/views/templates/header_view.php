@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- scripts -->
 	<script src="<?= base_url(); ?>assets/scripts/vendors/head.min.js"></script>
-	<script>
+	<script data-turbolinks-track="reload">
 		head.load(
 			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' },
 			{ turbolinks: '<?= base_url(); ?>assets/scripts/vendors/turbolinks.min.js' },
@@ -51,10 +51,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			{ contentLinks: '<?= base_url(); ?>assets/scripts/vendors/content-tools.min.js' },
 			{ contentEditor: '<?= base_url(); ?>assets/scripts/content-editor.min.js' },
 			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js' },
-			{ googleMaps: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCS8ioWkedaify-sqbZxv5AUujwhYZrWXI&sensor=true' },
-			{ gmaps: '<?= base_url(); ?>assets/scripts/vendors/gmaps.js' },
-			{ twMap: '<?= base_url(); ?>assets/scripts/custom-maps.js' },
-			{ twMap: '<?= base_url(); ?>assets/scripts/quick-nav.js' }
+			{ quickNav: '<?= base_url(); ?>assets/scripts/quick-nav.js' }
+			<?php
+			if (isset($custom_js)) {
+				foreach ($custom_js as $key => $value) {
+					echo ',{ '.$key.': \''. $value.'\' } ';
+				}
+			}
+			?>
+
 		);
 	</script>
 	<!-- end scripts -->

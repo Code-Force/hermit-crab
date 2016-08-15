@@ -9,7 +9,6 @@ document.addEventListener('turbolinks:load', documentReady);
 
 function initializeQuickNav () {
     $('body').on('click', '#nav-toggle', function () {
-
         $('#quick-nav').toggleClass('open');
     });
 
