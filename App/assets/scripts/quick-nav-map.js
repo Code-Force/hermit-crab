@@ -14,7 +14,7 @@ function initializeQuickNav () {
 
     $('body').on('change', '.filter-category', function() {
 
-        updateStores();
+        updateMarkers();
 
     });
 
@@ -28,7 +28,7 @@ function initializeQuickNav () {
             $('.filter-'+clearIdentifier).each(function () {
                 $(this).prop('checked', false); // Unchecks it
             });
-            updateStores();
+            updateMarkers();
 
         }
 
@@ -48,21 +48,17 @@ function getCategoryFilters () {
 
 }
 
-function fadeNewsFeed($content) {
-    var contentContainer = $('.home__feed .stories__holder');
-    if ($content === undefined) {
-        $content = '<div class="loader" data-loader="ball-pulse"></div>';
-    }
-    contentContainer.fadeOut('fast', function() {
-        contentContainer.html($content);
-        contentContainer.fadeIn('fast');
-    });
+function fadeFilterLoader() {
+
+    $('#filter-overlay').toggleClass('show');
 
 }
 
-function updateStores() {
+function updateMarkers() {
 
-    fadeNewsFeed();
+    fadeFilterLoader();
+
+    deleteMarkers();
 
     var categoryFilters = getCategoryFilters();
 
@@ -88,25 +84,11 @@ function updateStores() {
             // TO UPDATE : We need to add lat and long for each story when they are added
             // This for loop will cycle through the stories that we have in order to get their
             // geo locations. In the end, we want all stories to have geolocations and this will be a backup.
-            var stories = createNewStories(stories, 1, 0);
-            fadeNewsFeed(stories);
+            createNewMapStories(stories, 1, 0);
+            fadeFilterLoader();
+
         }
     });
 
-    function createNewStories(stories) {
 
-        var returnStories = '';
-
-        $.each(stories, function(key, story) {
-            returnStories += '<div id="story">'+
-                '<h3>'+story.story_title+'</h3>'+
-                '<div class="story--content-box">'+
-                '<p>'+story.description+'</p>'+
-                '<p><a href="/stories/'+story.slug+'">View Story</a></p>'+
-                '</div>'+
-                '</div>';
-        });
-
-        return returnStories;
-    }
 }

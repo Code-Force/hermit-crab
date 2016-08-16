@@ -68,4 +68,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <header class="header">
 	<?= $header_snippets['user_nav_html']; ?>
 </header>
-<?= $header_snippets['quick_nav_html']; ?>

@@ -1,7 +1,11 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-20 col-left">
-
+			<div class="logo-holder">
+				<a href="/">
+					<img class="logo-holder__logo" src="<?= base_url(); ?>assets/images/logo/logo_badge--300.png" />
+				</a>
+			</div>
 		</div>
 		<div class="col-xs-20 col-center">
 			<img class="header__compass" src="<?= base_url(); ?>assets/images/logo/compass--300.png" />
