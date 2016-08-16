@@ -10,7 +10,7 @@
 			if (isset($categories)) {
 				foreach ($categories as $category) {
 					$quick_nav_html .= '
-					<input type="checkbox" class="filter-category cat-icon" id="'.$category['handle'].'" checked="checked" name="filter-categories" value="'.$category['category_id'].'" /><label for="'.$category['handle'].'" style="background: url(\''.base_url().'/assets/images/map/icons/'.$category['handle_img'].'.png\')"></label> ';
+					<input type="checkbox" class="filter-category cat-icon" id="'.$category['handle'].'" name="filter-categories" value="'.$category['category_id'].'" /><label for="'.$category['handle'].'" title="'.$category['name'].'" style="background: url(\''.base_url().'/assets/images/map/icons/'.$category['handle_img'].'.png\')"></label> ';
 				}
 			}
 			?>
