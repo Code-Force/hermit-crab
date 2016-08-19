@@ -7,6 +7,13 @@
 			</a>
 		</div>
 	</div>
+	<section class="story__sidebar">
+		<div class="sidebar__reactions">
+			<div class="reactions__love">
+				<?php echo file_get_contents(base_url() . "assets/svg/icon-heart.svg"); ?>
+			</div>
+		</div>
+	</section>
 	<section class="story__wrapper">
 		<article class="wrapper__content container">
 			<!-- article title, date and author -->
@@ -34,8 +41,13 @@
 					<h1><?= strip_tags($title); ?></h1>
 				</div>
 				<div class="header__author">
-					<a href="<?= base_url() . $story['username'] ?>" class="author__image">
-						<img src="<?= $story['profile'] ?>" />
+					<a href="<?= base_url() . $story['username'] ?>">
+						<style>
+							.author__image {
+								background-image: url('<?= $story['profile'] ?>');
+							}
+						</style>
+						<div class="author__image"></div>
 					</a>
 					<a href="<?= base_url() . $story['username'] ?>" rel="author" class="author__name">
 						<?= $story['fullname']; ?>
