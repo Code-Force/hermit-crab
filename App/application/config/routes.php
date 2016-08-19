@@ -58,7 +58,6 @@ $route['stories/ajax/(:any)'] = 'stories/ajax/$1';
 $route['stories/save'] = 'stories/save';
 $route['stories/(:any)'] = 'stories/view/$1';
 $route['login'] = "login";
-$route['map'] = "map";
 $route['register'] = "register";
 $route['logout'] = "home/logout";
 $route['account'] = "account";

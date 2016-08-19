@@ -100,20 +100,18 @@ class Stories extends MY_Controller
 
     function ajax($function = 'stories_list') {
 
-        echo $this->$function(true);
+        echo $this->$function();
 
     }
-    function stories_list ($ajax = false) {
+    function stories_list () {
+
+
 
         $search['categories'] = $this->input->get('categories');
 
         $stories = $this->stories_model->get_stories($search);
 
-        if ($ajax) {
-            return json_encode($stories);
-        } else {
-            return $stories;
-        }
+        return json_encode($stories);
     }
 
 }

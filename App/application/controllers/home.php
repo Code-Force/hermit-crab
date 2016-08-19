@@ -24,7 +24,7 @@ class Home extends MY_Controller {
 
         // Load the user navigation that controls the logout, login, account, etc links.
         $data['header_snippets'] = $this->initializeHeaderHTML($data);
-        $data['stories'] = $this->stories_list();
+	
 
         // LOAD VIEWS //
         // Gotta load up the header and footer views as well as the main page view.
@@ -45,14 +45,5 @@ class Home extends MY_Controller {
         redirect('/', 'refresh');
 
     }
-    function stories_list ($ajax = false) {
 
-        $stories = $this->stories_model->get_stories(false);
-
-        if ($ajax) {
-            return json_encode($stories);
-        } else {
-            return $stories;
-        }
-    }
 }
