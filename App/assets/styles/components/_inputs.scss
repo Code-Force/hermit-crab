@@ -1,4 +1,4 @@
-.input--default,input[type=text],textarea {
+.input--default,input[type=text],input[type=password],textarea {
 	@include appearance(none);
 	@include font__feature;
 	@include transition(0.2s linear);

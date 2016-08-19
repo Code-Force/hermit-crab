@@ -1,9 +1,17 @@
 .header {
-	margin: 20px 0;
+	padding: 20px 0 0 0;
 	position: absolute;
 	z-index: 1;
 	width: 100%;
+	.logo-holder {
+		height: auto;
+		width:  100%;
 
+		.logo-holder__logo {
+			height: auto;
+			max-width: 60px;
+		}
+	}
 	.header__compass {
 		height: auto;
 		max-width: 50px;
