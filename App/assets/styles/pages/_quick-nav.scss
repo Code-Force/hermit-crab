@@ -1,3 +1,7 @@
+.loader {
+  margin: 150px auto;
+}
+
 #filter-overlay {
   z-index: 3;
   position: absolute;
@@ -41,26 +45,21 @@
 
   @include transition(0.5s ease-in-out);
   /*@include transform(translateX(-100%));*/
-  width: 400px;
 
-  left: 0px;
-  height: 100vh;
-  position: absolute;
-  bottom: 0px;
+  @include container-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
   background: $color__white;
   z-index:2;
-
-  .quick-nav__logo-holder {
-    height: auto;
-    padding: 20px;
-    width:  100%;
-
-    .logo-holder__logo {
-      height: auto;
-      max-width: 60px;
-    }
-  }
-
+  margin-top: 100px;
   #nav-toggle {
 
     @include transition(0.5s ease-in-out);
@@ -98,20 +97,39 @@
       width: 100%;
       box-sizing: border-box;
       padding: 20px;
-      .mood-container__category {
-        width: 50%;
-        float: left;
-        label {
-          cursor: pointer;
-          width: 100%;
-          float: left;
-          @include font__feature();
-          @include font__size(13px);
-        }
+      .categories {
+        text-align: center;
+        width:100%;
+      }
+      .clear-filters {
+        clear: both;
       }
     }
   }
 
+  input[type=checkbox] {
+    display:none;
+  }
 
+  input[type=checkbox] + label
+  {
+    height: 32px;
+    width: 32px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  input[type=checkbox]:checked + label
+  {
+    background: #0080FF;
+    height: 32px;
+    width: 32px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
 }
 

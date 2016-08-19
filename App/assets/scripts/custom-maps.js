@@ -200,7 +200,7 @@ function initializeMap() {
     // This function is used to display the stories that are pulled from the endpoint.
     // Before adding them as markers, we need to take the data returned from the google geolocation point
     // and the stories generated from the endpoint.
-    function createNewStories(stories, delayMarkerLoad, deleteOld) {
+    function createNewMapStories(stories, delayMarkerLoad, deleteOld) {
 
         var newFeatures = [];
 
@@ -257,11 +257,11 @@ function initializeMap() {
         url: "stories/ajax/stories_list",
         dataType: "json",
         success: function(stories){
-            createNewStories(stories, 1, 0);
+            createNewMapStories(stories, 1, 0);
         }
     });
 
-    window.createNewStories = createNewStories;
+    window.createNewMapStories = createNewMapStories;
     window.deleteMarkers = deleteMarkers;
 
 }
