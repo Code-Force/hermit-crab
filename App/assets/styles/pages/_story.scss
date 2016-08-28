@@ -3,7 +3,7 @@
 		height: 300px;
 		overflow: hidden;
 		position: relative;
-		
+
 		img {
 			@include transform(translate(-50%,-50%));
 			height: auto;
@@ -38,7 +38,7 @@
 			padding: 40px;
 			position: relative;
 			margin-top: -100px;
-			
+
 			.content__header {
 				.header__date {
 					@include font__feature;
@@ -46,7 +46,7 @@
 					font-style: italic;
 					margin-bottom: 20px;
 					text-transform: uppercase;
-					
+
 					.date__created {
 						@include font__size(15px);
 						color: $color__grey--dark;
@@ -63,7 +63,7 @@
 				.header__author {
 					margin: 20px;
 					text-align: center;
-					
+
 					.author__image {
 						display: inline-block;
 						font-size: 14px;
@@ -71,7 +71,7 @@
 						margin-right: 5px;
 						vertical-align: middle;
 						width: 45px;
-						
+
 						img {
 							@include transform(translate(-50%,-50%));
 							border-radius: 50%;
@@ -99,13 +99,13 @@
 					max-width: 100%;
 				}
 			}
-		}	
+		}
 	}
 	.story__comment {
 		background-color: $color__grey--lightest;
 		padding: 20px 0;
 	}
-	
+
 	&.story--editing {
 		.story__featured-image {
 			.featured-image__upload {
