@@ -144,5 +144,12 @@ class Register extends MY_Controller {
         }
 
     }
+    // We need to retrieve the ajax call requested by the front end and return
+    // the view.
+    function ajax () {
 
+        echo $this->load->view('ajax/register_ajax_view', '', TRUE);
+        exit();
+
+    }
 }

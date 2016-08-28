@@ -53,7 +53,8 @@ class Stories_model extends CI_Model {
 
         $where = 'WHERE cou.country_id = s.country_id
             AND cou.continent_id = con.continent_id
-            AND s.category_id = cat.category_id';
+            AND s.category_id = cat.category_id
+            AND u.user_id = s.user_id';
 
         if ($search['categories']) {
             $categoriesRaw = $search['categories'];
@@ -70,8 +71,8 @@ class Stories_model extends CI_Model {
         }
 
         // Query to retrieve multiple stories.
-        $query = $this->db->query('SELECT s.*, cou.nicename as country, con.nicename as continent, cat.handle as category
-            FROM stories s, countries cou, continents con, categories cat
+        $query = $this->db->query('SELECT s.*, cou.nicename as country, con.nicename as continent, cat.handle as category, u.folder, username, profile_photo fullname
+            FROM stories s, countries cou, continents con, categories cat, users u
             '.$where.'
             GROUP BY s.story_id
             ORDER BY s.story_id '.$order.' LIMIT '.$num);

@@ -154,7 +154,7 @@ class MY_Controller extends CI_Controller
         return $return;
 
 
-    }
+    }*/
     function display_stories ($stories, $limit = 30) {
         $return = '';
         $limit_count = 1;
@@ -241,5 +241,5 @@ class MY_Controller extends CI_Controller
         }
 
         return $return;
-    }*/
+    }
 }

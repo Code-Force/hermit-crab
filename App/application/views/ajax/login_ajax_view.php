@@ -7,5 +7,5 @@
 		<br/>
 		<input class="login-modal__submit" type="submit" value="Login"/>
 	</form>
-	<span class="login-modal__register">Don't have an account? <a href="/register">Register</a></span>
+	<span class="login-modal__register">Don't have an account? <a href="/register" class="modok-trigger" data-url="/register/ajax">register</a></span>
 </div>

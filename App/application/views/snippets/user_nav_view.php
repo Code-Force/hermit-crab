@@ -16,7 +16,7 @@
 				if(isset($user) && $user) { ?>
 					<a href="/<?= $user['username']; ?>">My Profile</a>&nbsp;<a href="/account">My Account</a>&nbsp;<a href="/logout">logout</a>
 				<? } else { ?>
-					<a href="/login" class="modok-trigger" data-url="/login/ajax">login</a>&nbsp;<a href="/register">register</a>
+					<a href="/login" class="modok-trigger" data-url="/login/ajax">login</a>&nbsp;<a href="/register" class="modok-trigger" data-url="/register/ajax">register</a>
 				<? } ?>
 			</div>
 		</div>
