@@ -1,22 +1,20 @@
 .header {
-	padding: 20px 0 0 0;
+	padding: 20px 20px 0 20px;
 	position: absolute;
 	z-index: 1;
 	width: 100%;
+
 	.logo-holder {
+		float: left;
 		height: auto;
-		width:  100%;
 
 		.logo-holder__logo {
 			height: auto;
 			max-width: 60px;
 		}
 	}
-	.header__compass {
-		height: auto;
-		max-width: 50px;
-	}
 	.header__account {
 		@include font__size(22px);
+		float: right;
 	}
 }

@@ -1,6 +1,6 @@
 <div class="story" data-id="<?= $story['story_id']; ?>">
-	<div class="story__featured-image">
-		<img src="<?= base_url(); ?>assets/images/stock/splash-bg.jpg" />
+	<div class="story__featured-image" data-stellar-ratio=".7">
+		<img src="<?= base_url().'assets/users/'.$story['folder'].'/stories/'.$story['album'].'/'.$story['story_cover'] ?>" alt="<?= strip_tags($title); ?>"/>
 		<div class="featured-image__upload">
 			<a href="">
 				<i class="fa fa-camera upload__icon" aria-hidden="true"></i>
@@ -20,7 +20,7 @@
 						?>
 					</time>
 					<div class="date__update">
-						Last updated on 
+						Last updated on
 						<time>
 							<?php
 								$date = strtotime($story['date_updated']);
@@ -34,8 +34,8 @@
 					<h1><?= strip_tags($title); ?></h1>
 				</div>
 				<div class="header__author">
-					<a href="<?= base_url() . $story['username'] ?>" class="author__image">
-						<img src="<?= $story['profile'] ?>" />
+					<a href="<?= base_url() . $story['username'] ?>">
+						<div class="author__image" style="background-image: url('<?= $story['profile'] ?>');'"></div>
 					</a>
 					<a href="<?= base_url() . $story['username'] ?>" rel="author" class="author__name">
 						<?= $story['fullname']; ?>

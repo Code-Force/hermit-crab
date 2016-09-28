@@ -1,7 +1,53 @@
-.home__feed {
-	.story {
-		margin-bottom: 40px;
-		width:100%;
-		border-top: 1px solid $color__grey--light;
+.home {
+	.home__grid,.grid__story-col {
+		padding: 10px;
+	}
+	.home__grid {
+		.grid__story-col {
+			.story-col__story {
+				position: relative;
+
+				.story__image-wrapper {
+					@include maintain-ratio(16 9);
+					overflow: hidden;
+					position: relative;
+					width: 100%;
+
+					.image-wrapper__image {
+						@include transform(translate(-50%,-50%));
+						height: auto;
+						left: 50%;
+						position: absolute;
+						top: 50%;
+						width: 100%;
+					}
+				}
+				.story__info {
+					@include gradient--vertical(rgba(0,0,0,.6), rgba(0,0,0,0));
+					color: $color__white;
+					left: 0;
+					padding: 15px;
+					position: absolute;
+					top: 0;
+					width: 100%;
+
+					.info__title {
+						@include font__size(25px);
+						margin-bottom: 5px;
+					}
+					.info__location {
+						@include font__size(18px);
+						margin: 0;
+
+						span,i {
+							vertical-align: middle;
+						}
+						.location__pin {
+							color: $color__feature;
+						}
+					}
+				}
+			}
+		}
 	}
 }

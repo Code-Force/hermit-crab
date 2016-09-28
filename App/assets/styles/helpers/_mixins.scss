@@ -3,103 +3,103 @@
 Maintain Ratio Mixin
 Keeps the ratio of a container during window resizes
 USAGE:
-    div {
-        /* Keeps the container square
-        @include maintain-ratio($ratio: 1 1);
-    }
+	div {
+		/* Keeps the container square
+		@include maintain-ratio($ratio: 1 1);
+	}
 */
 @mixin maintain-ratio($ratio: 1 1) {
-    @if length($ratio) < 2 or length($ratio) > 2 {
-        @warn "$ratio must be a list with two values.";
-    }
-    $width: 100%;
-    $height: percentage(nth($ratio, 2) / nth($ratio, 1));
-    width: $width;
-    height: 0;
-    padding-bottom: $height;
+	@if length($ratio) < 2 or length($ratio) > 2 {
+		@warn "$ratio must be a list with two values.";
+	}
+	$width: 100%;
+	$height: percentage(nth($ratio, 2) / nth($ratio, 1));
+	width: $width;
+	height: 0;
+	padding-bottom: $height;
 }
 @mixin clearfix {
-    *zoom: 1;
-    &:before,
-    &:after {
-        content: ' ';
-        display: table;
-    }
-    &:after {
-        clear: both; 
-    }
+	*zoom: 1;
+	&:before,
+	&:after {
+		content: ' ';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
 }
 @mixin vertical-middle {
-    padding: 0;
-    position: relative;
-    white-space: nowrap;
-    &:before {
-        content: '';
-        height: 100%; 
-        display: inline-block;
-        vertical-align: middle;
-    }
-    & > * {
-        display: inline-block;
-        vertical-align: middle;
-        white-space: normal;
-    }
+	padding: 0;
+	position: relative;
+	white-space: nowrap;
+	&:before {
+		content: '';
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	& > * {
+		display: inline-block;
+		vertical-align: middle;
+		white-space: normal;
+	}
 }
 @mixin no-select {
-    -webkit-touch-callout: none; 
-    -webkit-user-select: none; 
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none; 
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 @mixin transition($args...) {
-    -webkit-transition: $args;
-    -moz-transition: $args;
-    -ms-transition: $args;
-    -o-transition: $args;
-    transition: $args;
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
 }
 /*
 -----------------------
 Flexbox compatibility mixins
 */
 @mixin flex {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 @mixin justify-content($justify) {
-    -webkit-box-pack: $justify;
-    -webkit-justify-content: $justify;
-    -ms-flex-pack: $justify;
-    justify-content: $justify;
+	-webkit-box-pack: $justify;
+	-webkit-justify-content: $justify;
+	-ms-flex-pack: $justify;
+	justify-content: $justify;
 }
 @mixin align-items($align) {
-    -webkit-box-align: $align;
-    -webkit-align-items: $align;
-    -ms-flex-align: $align;
-    align-items: $align;
+	-webkit-box-align: $align;
+	-webkit-align-items: $align;
+	-ms-flex-align: $align;
+	align-items: $align;
 }
 /* end flexbox mixins */
 @mixin transform($transform) {
-    -webkit-transform: $transform;
-    -ms-transform: $transform;
-    transform: $transform;
+	-webkit-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
 }
 /*
 -----------------------
 Calc Mixin
 
 USAGE:
-    .example {
-        @include calc(width, "25% - 1em");
-    }
+	.example {
+		@include calc(width, "25% - 1em");
+	}
 */
 @mixin calc($property, $expression) {
-    #{$property}: -webkit-calc(#{$expression});
-    #{$property}: -moz-calc(#{$expression});
-    #{$property}: calc(#{$expression});
+	#{$property}: -webkit-calc(#{$expression});
+	#{$property}: -moz-calc(#{$expression});
+	#{$property}: calc(#{$expression});
 }
 /* end calc mixin */
 
@@ -107,46 +107,46 @@ USAGE:
 -----------------------
 Animation Mixin
 USAGE:
-    @include keyframes(slide-down) {
-        0% { opacity: 1; }
-        90% { opacity: 0; }
-    }
-    .element {
-        width: 100px;
-        height: 100px;
-        background: black;
-        @include animation('slide-down 5s 3');
-    }
+	@include keyframes(slide-down) {
+		0% { opacity: 1; }
+		90% { opacity: 0; }
+	}
+	.element {
+		width: 100px;
+		height: 100px;
+		background: black;
+		@include animation('slide-down 5s 3');
+	}
 */
 @mixin keyframes($animation-name) {
-    @-webkit-keyframes #{$animation-name} {
-        @content;
-    }
-    @-moz-keyframes #{$animation-name} {
-        @content;
-    }  
-    @-ms-keyframes #{$animation-name} {
-        @content;
-    }
-    @-o-keyframes #{$animation-name} {
-        @content;
-    }  
-    @keyframes #{$animation-name} {
-        @content;
-    }
+	@-webkit-keyframes #{$animation-name} {
+		@content;
+	}
+	@-moz-keyframes #{$animation-name} {
+		@content;
+	}
+	@-ms-keyframes #{$animation-name} {
+		@content;
+	}
+	@-o-keyframes #{$animation-name} {
+		@content;
+	}
+	@keyframes #{$animation-name} {
+		@content;
+	}
 }
 @mixin placeholder {
-    &::-webkit-input-placeholder {@content}
-    &:-moz-placeholder {@content}
-    &::-moz-placeholder {@content}
-    &:-ms-input-placeholder {@content}
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder {@content}
+	&::-moz-placeholder {@content}
+	&:-ms-input-placeholder {@content}
 }
 @mixin animation($str) {
-    -webkit-animation: #{$str};
-    -moz-animation: #{$str};
-    -ms-animation: #{$str};
-    -o-animation: #{$str};
-    animation: #{$str};      
+	-webkit-animation: #{$str};
+	-moz-animation: #{$str};
+	-ms-animation: #{$str};
+	-o-animation: #{$str};
+	animation: #{$str};
 }
 /* end animation mixin */
 @mixin appearance($str) {
@@ -160,14 +160,21 @@ USAGE:
 	-moz-box-shadow: #{$str};
 	box-shadow: #{$str};
 }
+@mixin gradient--vertical($color1, $color2) {
+	background: #{$color1}; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#{$color1}, #{$color2$color2}); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#{$color1}, #{$color2}); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#{$color1}, #{$color2}); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#{$color1}, #{$color2}); /* Standard syntax */
+}
 /*
 -----------------------
 Font-size Mixin
 Calculates REM sizes and defaults to px on fail
 USAGE:
-    p {
-        @include font-size(14px)
-    }
+	p {
+		@include font-size(14px)
+	}
 */
 @function calculateRem($size) {
 	$remSize: $size / 16px;

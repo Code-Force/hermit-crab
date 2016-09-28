@@ -3,11 +3,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="description" content="Travel Blog">
 	<meta name="keywords" content="travel,blog,writing,articles">
 	<meta name="author" content="Code Force">
-	
+
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?= base_url(); ?>assets/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="<?= base_url(); ?>assets/favicon/apple-icon-60x60.png">
@@ -27,13 +27,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta name="msapplication-TileImage" content="<?= base_url(); ?>assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<!-- end favicons -->
-	
+
 	<title>Travelled Writers</title>
-	
+
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Rasa:400,700" rel="stylesheet">
 	<!-- end fonts -->
-	
+
 	<!-- stylesheet -->
 	<link href="<?= base_url(); ?>assets/styles/main.css" rel="stylesheet">
 	<link href="<?= base_url(); ?>assets/styles/vendors/content-tools/content-tools.min.css" rel="stylesheet">
@@ -46,12 +46,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			{ jQuery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' },
 			{ turbolinks: '<?= base_url(); ?>assets/scripts/vendors/turbolinks.min.js' },
 			{ smoothWheel: '<?= base_url(); ?>assets/scripts/vendors/smoothwheel.min.js' },
+			{ stellar: '<?= base_url(); ?>assets/scripts/vendors/jquery.stellar.min.js' },
 			{ generalScripts: '<?= base_url(); ?>assets/scripts/general-scripts.min.js' },
+			<?php
+			if(isset($current_page)) {
+				if($current_page == 'story') {
+			?>
+			{ storyScripts: '<?= base_url(); ?>assets/scripts/story-scripts.min.js' },
+			<?php
+				}
+			}
+			?>
 			{ modok: '<?= base_url(); ?>assets/scripts/modok.min.js' },
 			{ contentLinks: '<?= base_url(); ?>assets/scripts/vendors/content-tools.min.js' },
 			{ contentEditor: '<?= base_url(); ?>assets/scripts/content-editor.min.js' },
 			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js' },
-			{ quickNav: '<?= base_url(); ?>assets/scripts/quick-nav.js' }
+			{ quickNav: '<?= base_url(); ?>assets/scripts/quick-nav.min.js' }
 			<?php
 			if (isset($custom_js)) {
 				foreach ($custom_js as $key => $value) {

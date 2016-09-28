@@ -3,7 +3,7 @@ h1,h2,h3,h4,h5,h6 {
 	@include font__primary;
 }
 /* Default fonts */
-body,p,span {
+body {
 	@include font__size(25px);
 	@include font__primary;
 }
