@@ -107,6 +107,7 @@ class Stories extends MY_Controller
 	function stories_list ($ajax = false) {
 
 		$search['categories'] = $this->input->get('categories');
+		$search['last_date'] = $this->input->get('last_date');
 
 		$stories = $this->stories_model->get_stories($search);
 

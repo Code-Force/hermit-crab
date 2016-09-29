@@ -22,6 +22,8 @@ class Home extends MY_Controller {
 
         $data['categories'] = $this->stories_model->get_categories();
 
+        $data['current_page'] = 'home';
+
         // Load the user navigation that controls the logout, login, account, etc links.
         $data['header_snippets'] = $this->initializeHeaderHTML($data);
         $data['stories'] = $this->stories_list();

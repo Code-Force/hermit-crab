@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div id="home">
 	<div id="home-grid" class="home__grid row">
 		<?php foreach ($stories as $key=>$story) { ?>
-		<div class="home__element">
+		<div class="home__element" data-date="<?= $story['date_posted']; ?>">
 			<a href="<?= base_url().'stories/'.$story['slug']; ?>">
 				<div class="grid__story-col col-md-20 col-xs-30">
 					<div class="story-col__story">
