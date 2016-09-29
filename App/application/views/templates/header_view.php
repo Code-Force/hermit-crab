@@ -47,12 +47,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			{ turbolinks: '<?= base_url(); ?>assets/scripts/vendors/turbolinks.min.js' },
 			{ smoothWheel: '<?= base_url(); ?>assets/scripts/vendors/smoothwheel.min.js' },
 			{ stellar: '<?= base_url(); ?>assets/scripts/vendors/jquery.stellar.min.js' },
+			{ masonry: '<?= base_url(); ?>assets/scripts/vendors/masonry.min.js' },
 			{ generalScripts: '<?= base_url(); ?>assets/scripts/general-scripts.min.js' },
 			<?php
 			if(isset($current_page)) {
 				if($current_page == 'story') {
 			?>
 			{ storyScripts: '<?= base_url(); ?>assets/scripts/story-scripts.min.js' },
+			<?php
+				} elseif($current_page == 'home') {
+			?>
+			{ homeScripts: '<?= base_url(); ?>assets/scripts/home-scripts.min.js' },
 			<?php
 				}
 			}

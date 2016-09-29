@@ -1,54 +1,58 @@
 #home {
-	.home__grid,.grid__story-col {
-		padding: 10px;
-	}
-	.home__grid {
-		margin-top: 80px;
-		.grid__story-col {
-			.story-col__story {
-				position: relative;
-
-				.story__image-wrapper {
-					@include maintain-ratio(16 9);
-					overflow: hidden;
-					position: relative;
-					width: 100%;
-
-					.image-wrapper__image {
-						@include transform(translate(-50%,-50%));
-						height: auto;
-						left: 50%;
-						position: absolute;
-						top: 50%;
-						width: 100%;
-					}
-				}
-				.story__info {
-					@include gradient--vertical(rgba(0,0,0,.6), rgba(0,0,0,0));
-					color: $color__white;
-					left: 0;
-					padding: 15px;
-					position: absolute;
-					top: 0;
-					width: 100%;
-
-					.info__title {
-						@include font__size(25px);
-						margin-bottom: 5px;
-					}
-					.info__location {
-						@include font__size(18px);
-						margin: 0;
-
-						span,i {
-							vertical-align: middle;
-						}
-						.location__pin {
-							color: $color__feature;
-						}
-					}
-				}
-			}
-		}
-	}
+}
+.home__grid,.grid__story-col {
+	padding: 10px;
+}
+#home-grid {
+	margin-top: 80px;
+	padding: 0;
+}
+.home__element {
+	float: left;
+	padding: 15px;
+	width: 33%;
+}
+.home-story {
+	position: relative;
+}
+.home-story__image-wrapper {
+	@include maintain-ratio(16 9);
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.home-story__image {
+	@include transform(translate(-50%,-50%));
+	height: auto;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+.home-story__info {
+	@include gradient--vertical(rgba(0,0,0,.6), rgba(0,0,0,0));
+	color: $color__white;
+	left: 0;
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.home-story__title {
+	@include font__size(25px);
+	margin-bottom: 5px;
+}
+.home-story__location {
+	@include font__size(18px);
+	margin: 0;
+}
+.home-story__location-pin {
+	color: $color__feature;
+	vertical-align: middle;
+}
+.home-story__location-name {
+	@include font--size(12px);
+	@include font__feature;
+	font-weight: 700;
+	text-transform: uppercase;
 }

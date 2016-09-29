@@ -193,11 +193,17 @@ Font Mixins
 @mixin font__primary {
 	font-family: $font__primary;
 	line-height: 1.3;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 @mixin font__feature {
 	font-family: $font__feature;
 	letter-spacing: 0.05em;
 	line-height: 1.3;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 /* end font mixins */
 

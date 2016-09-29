@@ -3613,6 +3613,9 @@ Used for consistent general-purpose element styling
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.05em;
   line-height: 1.3;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   -ms-transition: 0.2s linear;
@@ -3650,6 +3653,9 @@ button, .button, input[type=submit] {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.05em;
   line-height: 1.3;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
   font-size: 0.9375rem;
   line-height: 1;
@@ -3749,7 +3755,10 @@ button, .button, input[type=submit] {
 /* line 2, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Rasa", serif;
-  line-height: 1.3; }
+  line-height: 1.3;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 /* Default fonts */
 /* line 6, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
@@ -3758,7 +3767,10 @@ body {
   font-size: 1.5625rem;
   line-height: 1;
   font-family: "Rasa", serif;
-  line-height: 1.3; }
+  line-height: 1.3;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 /* line 10, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/components/_typography.scss */
 h1 {
@@ -5860,70 +5872,96 @@ body {
   position: relative; }
 
 /* Pages */
-/* line 2, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-#home .home__grid, #home .grid__story-col {
+/* line 3, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home__grid, .grid__story-col {
   padding: 10px; }
 
-/* line 5, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-#home .home__grid {
-  margin-top: 80px; }
-  /* line 8, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-  #home .home__grid .grid__story-col .story-col__story {
-    position: relative; }
-    /* line 11, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-    #home .home__grid .grid__story-col .story-col__story .story__image-wrapper {
-      width: 100%;
-      height: 0;
-      padding-bottom: 56.25%;
-      overflow: hidden;
-      position: relative;
-      width: 100%; }
-      /* line 17, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-      #home .home__grid .grid__story-col .story-col__story .story__image-wrapper .image-wrapper__image {
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        height: auto;
-        left: 50%;
-        position: absolute;
-        top: 50%;
-        width: 100%; }
-    /* line 26, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-    #home .home__grid .grid__story-col .story-col__story .story__info {
-      background: rgba(0, 0, 0, 0.6);
-      /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), transparent transparent);
-      /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(rgba(0, 0, 0, 0.6), transparent);
-      /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(rgba(0, 0, 0, 0.6), transparent);
-      /* For Firefox 3.6 to 15 */
-      background: linear-gradient(rgba(0, 0, 0, 0.6), transparent);
-      /* Standard syntax */
-      color: #FFFFFF;
-      left: 0;
-      padding: 15px;
-      position: absolute;
-      top: 0;
-      width: 100%; }
-      /* line 35, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-      #home .home__grid .grid__story-col .story-col__story .story__info .info__title {
-        font-size: 25px;
-        font-size: 1.5625rem;
-        line-height: 1;
-        margin-bottom: 5px; }
-      /* line 39, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-      #home .home__grid .grid__story-col .story-col__story .story__info .info__location {
-        font-size: 18px;
-        font-size: 1.125rem;
-        line-height: 1;
-        margin: 0; }
-        /* line 43, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-        #home .home__grid .grid__story-col .story-col__story .story__info .info__location span, #home .home__grid .grid__story-col .story-col__story .story__info .info__location i {
-          vertical-align: middle; }
-        /* line 46, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
-        #home .home__grid .grid__story-col .story-col__story .story__info .info__location .location__pin {
-          color: #F26B57; }
+/* line 6, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+#home-grid {
+  margin-top: 80px;
+  padding: 0; }
+
+/* line 10, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home__element {
+  float: left;
+  padding: 15px;
+  width: 33%; }
+
+/* line 15, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story {
+  position: relative; }
+
+/* line 18, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__image-wrapper {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+/* line 24, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__image {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: auto;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+
+/* line 32, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__info {
+  background: rgba(0, 0, 0, 0.6);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), transparent transparent);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+  /* Standard syntax */
+  color: #FFFFFF;
+  left: 0;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+/* line 41, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__title {
+  font-size: 25px;
+  font-size: 1.5625rem;
+  line-height: 1;
+  margin-bottom: 5px; }
+
+/* line 45, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__location {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1;
+  margin: 0; }
+
+/* line 49, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__location-pin {
+  color: #F26B57;
+  vertical-align: middle; }
+
+/* line 53, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__location-name {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  text-transform: uppercase; }
 
 /* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_main-nav.scss */
 .header {
@@ -6108,6 +6146,9 @@ body {
   #quick-nav h1 {
     font-family: "Rasa", serif;
     line-height: 1.3;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-size: 30px;
     font-size: 1.875rem;
     line-height: 1; }
@@ -6200,6 +6241,9 @@ input[type=checkbox]:checked + label {
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.05em;
     line-height: 1.3;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     display: block;
     font-style: italic;
     margin-bottom: 20px;
@@ -6240,6 +6284,9 @@ input[type=checkbox]:checked + label {
       font-family: "Open Sans", sans-serif;
       letter-spacing: 0.05em;
       line-height: 1.3;
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
       font-size: 16px;
       font-size: 1rem;
       line-height: 1;
