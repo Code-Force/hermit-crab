@@ -44,7 +44,7 @@ function getCategoryFilters () {
 }
 
 function fadeNewsFeed($content) {
-	var contentContainer = $('.home__feed .stories__holder');
+	var contentContainer = $('#home-grid');
 	if ($content === undefined) {
 		$content = '<div class="loader" data-loader="ball-pulse"></div>';
 	}
