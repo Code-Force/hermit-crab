@@ -2354,7 +2354,13 @@ Used for consistent general-purpose element styling
 
   .col-md-offset-60 {
     margin-left: 100%; } }
+<<<<<<< Updated upstream
 @media (min-width: 1200px) {
+=======
+
+@media (min-width: 1450px) {
+  /* line 66, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+>>>>>>> Stashed changes
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-13, .col-lg-14, .col-lg-15, .col-lg-16, .col-lg-17, .col-lg-18, .col-lg-19, .col-lg-20, .col-lg-21, .col-lg-22, .col-lg-23, .col-lg-24, .col-lg-25, .col-lg-26, .col-lg-27, .col-lg-28, .col-lg-29, .col-lg-30, .col-lg-31, .col-lg-32, .col-lg-33, .col-lg-34, .col-lg-35, .col-lg-36, .col-lg-37, .col-lg-38, .col-lg-39, .col-lg-40, .col-lg-41, .col-lg-42, .col-lg-43, .col-lg-44, .col-lg-45, .col-lg-46, .col-lg-47, .col-lg-48, .col-lg-49, .col-lg-50, .col-lg-51, .col-lg-52, .col-lg-53, .col-lg-54, .col-lg-55, .col-lg-56, .col-lg-57, .col-lg-58, .col-lg-59, .col-lg-60 {
     float: left; }
 
@@ -3173,7 +3179,12 @@ Used for consistent general-purpose element styling
   .visible-sm-inline-block {
     display: inline-block !important; } }
 
+<<<<<<< Updated upstream
 @media (min-width: 900px) and (max-width: 1199px) {
+=======
+@media (min-width: 900px) and (max-width: 1449px) {
+  /* line 336, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+>>>>>>> Stashed changes
   .visible-md {
     display: block !important; }
 
@@ -3186,6 +3197,7 @@ Used for consistent general-purpose element styling
   th.visible-md,
   td.visible-md {
     display: table-cell !important; } }
+<<<<<<< Updated upstream
 @media (min-width: 900px) and (max-width: 1199px) {
   .visible-md-block {
     display: block !important; } }
@@ -3199,6 +3211,26 @@ Used for consistent general-purpose element styling
     display: inline-block !important; } }
 
 @media (min-width: 1200px) {
+=======
+
+@media (min-width: 900px) and (max-width: 1449px) {
+  /* line 453, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  .visible-md-block {
+    display: block !important; } }
+
+@media (min-width: 900px) and (max-width: 1449px) {
+  /* line 458, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  .visible-md-inline {
+    display: inline !important; } }
+
+@media (min-width: 900px) and (max-width: 1449px) {
+  /* line 463, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  .visible-md-inline-block {
+    display: inline-block !important; } }
+
+@media (min-width: 1450px) {
+  /* line 336, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+>>>>>>> Stashed changes
   .visible-lg {
     display: block !important; }
 
@@ -3211,6 +3243,7 @@ Used for consistent general-purpose element styling
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important; } }
+<<<<<<< Updated upstream
 @media (min-width: 1200px) {
   .visible-lg-block {
     display: block !important; } }
@@ -3220,6 +3253,21 @@ Used for consistent general-purpose element styling
     display: inline !important; } }
 
 @media (min-width: 1200px) {
+=======
+
+@media (min-width: 1450px) {
+  /* line 472, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  .visible-lg-block {
+    display: block !important; } }
+
+@media (min-width: 1450px) {
+  /* line 477, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  .visible-lg-inline {
+    display: inline !important; } }
+
+@media (min-width: 1450px) {
+  /* line 482, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+>>>>>>> Stashed changes
   .visible-lg-inline-block {
     display: inline-block !important; } }
 
@@ -3229,10 +3277,21 @@ Used for consistent general-purpose element styling
 @media (min-width: 710px) and (max-width: 899px) {
   .hidden-sm {
     display: none !important; } }
+<<<<<<< Updated upstream
 @media (min-width: 900px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important; } }
 @media (min-width: 1200px) {
+=======
+
+@media (min-width: 900px) and (max-width: 1449px) {
+  /* line 346, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+  .hidden-md {
+    display: none !important; } }
+
+@media (min-width: 1450px) {
+  /* line 346, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/vendors/_shoelace.scss */
+>>>>>>> Stashed changes
   .hidden-lg {
     display: none !important; } }
 .visible-print {
@@ -5017,6 +5076,11 @@ p {
   100% {
     -webkit-transform: rotate(360deg); } }
 /* Themes */
+/* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/themes/_theme.scss */
+body {
+  margin: auto;
+  max-width: 1400px; }
+
 /* Layout */
 body {
   width: 100%;
@@ -5027,6 +5091,7 @@ body {
   position: relative; }
 
 /* Pages */
+<<<<<<< Updated upstream
 .home .home__grid, .home .grid__story-col {
   padding: 10px; }
 .home .home__grid {
@@ -5063,9 +5128,34 @@ body {
       color: #FFFFFF;
       left: 0;
       padding: 15px;
+=======
+/* line 2, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+#home .home__grid, #home .grid__story-col {
+  padding: 10px; }
+
+/* line 7, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+#home .home__grid .grid__story-col .story-col__story {
+  position: relative; }
+  /* line 10, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  #home .home__grid .grid__story-col .story-col__story .story__image-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+    width: 100%; }
+    /* line 16, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+    #home .home__grid .grid__story-col .story-col__story .story__image-wrapper .image-wrapper__image {
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      height: auto;
+      left: 50%;
+>>>>>>> Stashed changes
       position: absolute;
       top: 0;
       width: 100%; }
+<<<<<<< Updated upstream
       .home .home__grid .grid__story-col .story-col__story .story__info .info__title {
         font-size: 25px;
         font-size: 1.5625rem;
@@ -5081,6 +5171,46 @@ body {
         .home .home__grid .grid__story-col .story-col__story .story__info .info__location .location__pin {
           color: #F26B57; }
 
+=======
+  /* line 25, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  #home .home__grid .grid__story-col .story-col__story .story__info {
+    background: rgba(0, 0, 0, 0.6);
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), transparent transparent);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+    /* Standard syntax */
+    color: #FFFFFF;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    /* line 34, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+    #home .home__grid .grid__story-col .story-col__story .story__info .info__title {
+      font-size: 25px;
+      font-size: 1.5625rem;
+      line-height: 1;
+      margin-bottom: 5px; }
+    /* line 38, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+    #home .home__grid .grid__story-col .story-col__story .story__info .info__location {
+      font-size: 18px;
+      font-size: 1.125rem;
+      line-height: 1;
+      margin: 0; }
+      /* line 42, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+      #home .home__grid .grid__story-col .story-col__story .story__info .info__location span, #home .home__grid .grid__story-col .story-col__story .story__info .info__location i {
+        vertical-align: middle; }
+      /* line 45, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+      #home .home__grid .grid__story-col .story-col__story .story__info .info__location .location__pin {
+        color: #F26B57; }
+
+/* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_main-nav.scss */
+>>>>>>> Stashed changes
 .header {
   padding: 20px 20px 0 20px;
   position: absolute;
@@ -5210,6 +5340,22 @@ body {
     display: table; }
   #quick-nav:after {
     clear: both; }
+<<<<<<< Updated upstream
+=======
+  @media (min-width: 710px) {
+    /* line 44, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_quick-nav.scss */
+    #quick-nav {
+      width: 680px; } }
+  @media (min-width: 900px) {
+    /* line 44, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_quick-nav.scss */
+    #quick-nav {
+      width: 760px; } }
+  @media (min-width: 1450px) {
+    /* line 44, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_quick-nav.scss */
+    #quick-nav {
+      width: 1400px; } }
+  /* line 63, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_quick-nav.scss */
+>>>>>>> Stashed changes
   #quick-nav #nav-toggle {
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
@@ -5302,9 +5448,16 @@ body {
       right: 30px; }
 .story .story__wrapper .wrapper__content {
   background-color: #FFFFFF;
+  margin-top: -100px;
+  max-width: 760px;
   padding: 40px;
+<<<<<<< Updated upstream
   position: relative;
   margin-top: -100px; }
+=======
+  position: relative; }
+  /* line 45, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+>>>>>>> Stashed changes
   .story .story__wrapper .wrapper__content .content__header .header__date {
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.05em;
@@ -5313,22 +5466,41 @@ body {
     font-style: italic;
     margin-bottom: 20px;
     text-transform: uppercase; }
+<<<<<<< Updated upstream
+=======
+    /* line 52, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+>>>>>>> Stashed changes
     .story .story__wrapper .wrapper__content .content__header .header__date .date__created {
       font-size: 15px;
       font-size: 0.9375rem;
       line-height: 1;
       color: #373737; }
+<<<<<<< Updated upstream
+=======
+    /* line 56, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+>>>>>>> Stashed changes
     .story .story__wrapper .wrapper__content .content__header .header__date .date__update {
       font-size: 12px;
       font-size: 0.75rem;
       line-height: 1;
       color: #D4D3D3;
       margin-top: 5px; }
+<<<<<<< Updated upstream
   .story .story__wrapper .wrapper__content .content__header .header__title {
     text-align: center; }
   .story .story__wrapper .wrapper__content .content__header .header__author {
     margin: 20px;
     text-align: center; }
+=======
+  /* line 62, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+  .story .story__wrapper .wrapper__content .content__header .header__title {
+    text-align: center; }
+  /* line 65, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+  .story .story__wrapper .wrapper__content .content__header .header__author {
+    margin: 20px;
+    text-align: center; }
+    /* line 69, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+>>>>>>> Stashed changes
     .story .story__wrapper .wrapper__content .content__header .header__author .author__image {
       background-position: center;
       background-size: cover;
@@ -5339,6 +5511,10 @@ body {
       margin-right: 5px;
       vertical-align: middle;
       width: 45px; }
+<<<<<<< Updated upstream
+=======
+    /* line 80, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+>>>>>>> Stashed changes
     .story .story__wrapper .wrapper__content .content__header .header__author .author__name {
       font-family: "Open Sans", sans-serif;
       letter-spacing: 0.05em;
@@ -5350,6 +5526,7 @@ body {
       font-weight: 700;
       text-transform: uppercase;
       vertical-align: middle; }
+<<<<<<< Updated upstream
   .story .story__wrapper .wrapper__content .content__body {
     margin: 40px 0 20px 0; }
     .story .story__wrapper .wrapper__content .content__body img {
@@ -5358,6 +5535,22 @@ body {
 .story .story__comment {
   background-color: #F6F4F4;
   padding: 20px 0; }
+=======
+  /* line 90, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+  .story .story__wrapper .wrapper__content .content__body {
+    margin: 40px 0 20px 0; }
+    /* line 92, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+    .story .story__wrapper .wrapper__content .content__body img {
+      padding: 10px;
+      max-width: 100%; }
+
+/* line 99, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+.story .story__comment {
+  background-color: #F6F4F4;
+  padding: 20px 0; }
+
+/* line 106, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_story.scss */
+>>>>>>> Stashed changes
 .story.story--editing .story__featured-image .featured-image__upload {
   opacity: 1;
   visibility: visible; }

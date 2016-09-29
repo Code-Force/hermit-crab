@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div id="user-nav">
 	<div class="row">
 		<div class="col-xs-10 col-left">
 			<div class="logo-holder">

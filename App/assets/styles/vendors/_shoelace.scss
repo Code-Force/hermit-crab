@@ -1,5 +1,5 @@
-$screen-lg-min: 1200px;
-$container-lg: 760px;
+$screen-lg-min: 1450px;
+$container-lg: 1400px;
 $screen-md-min: 900px;
 $container-md: 760px;
 $screen-sm-min: 710px;
@@ -28,11 +28,11 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 @mixin clearfix() {
   &:before,
   &:after {
-    content: " "; // 1
-    display: table; // 2
+	content: " "; // 1
+	display: table; // 2
   }
   &:after {
-    clear: both;
+	clear: both;
   }
 }
 
@@ -44,15 +44,15 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 // [converter] This is defined recursively in LESS, but Sass supports real loops
 @mixin make-grid-columns($i: 1, $list: ".col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}") {
   @for $i from (1 + 1) through $grid-columns {
-    $list: "#{$list}, .col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}";
+	$list: "#{$list}, .col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}";
   }
   #{$list} {
-    position: relative;
-    // Prevent columns from collapsing when empty
-    min-height: 1px;
-    // Inner gutter via padding
-    padding-left:  ($grid-gutter-width / 2);
-    padding-right: ($grid-gutter-width / 2);
+	position: relative;
+	// Prevent columns from collapsing when empty
+	min-height: 1px;
+	// Inner gutter via padding
+	padding-left:  ($grid-gutter-width / 2);
+	padding-right: ($grid-gutter-width / 2);
 
 	box-sizing: border-box;
   }
@@ -62,51 +62,51 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 // [converter] This is defined recursively in LESS, but Sass supports real loops
 @mixin float-grid-columns($class, $i: 1, $list: ".col-#{$class}-#{$i}") {
   @for $i from (1 + 1) through $grid-columns {
-    $list: "#{$list}, .col-#{$class}-#{$i}";
+	$list: "#{$list}, .col-#{$class}-#{$i}";
   }
   #{$list} {
-    float: left;
+	float: left;
   }
 }
 
 
 @mixin calc-grid-column($index, $class, $type) {
   @if ($type == width) and ($index > 0) {
-    .col-#{$class}-#{$index} {
-      width: percentage(($index / $grid-columns));
-    }
+	.col-#{$class}-#{$index} {
+	  width: percentage(($index / $grid-columns));
+	}
   }
   @if ($type == push) and ($index > 0) {
-    .col-#{$class}-push-#{$index} {
-      left: percentage(($index / $grid-columns));
-    }
+	.col-#{$class}-push-#{$index} {
+	  left: percentage(($index / $grid-columns));
+	}
   }
   @if ($type == push) and ($index == 0) {
-    .col-#{$class}-push-0 {
-      left: auto;
-    }
+	.col-#{$class}-push-0 {
+	  left: auto;
+	}
   }
   @if ($type == pull) and ($index > 0) {
-    .col-#{$class}-pull-#{$index} {
-      right: percentage(($index / $grid-columns));
-    }
+	.col-#{$class}-pull-#{$index} {
+	  right: percentage(($index / $grid-columns));
+	}
   }
   @if ($type == pull) and ($index == 0) {
-    .col-#{$class}-pull-0 {
-      right: auto;
-    }
+	.col-#{$class}-pull-0 {
+	  right: auto;
+	}
   }
   @if ($type == offset) {
-    .col-#{$class}-offset-#{$index} {
-      margin-left: percentage(($index / $grid-columns));
-    }
+	.col-#{$class}-offset-#{$index} {
+	  margin-left: percentage(($index / $grid-columns));
+	}
   }
 }
 
 // [converter] This is defined recursively in LESS, but Sass supports real loops
 @mixin loop-grid-columns($columns, $class, $type) {
   @for $i from 0 through $columns {
-    @include calc-grid-column($i, $class, $type);
+	@include calc-grid-column($i, $class, $type);
   }
 }
 
@@ -167,23 +167,23 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   padding-right: ($gutter / 2);
 
   @media (min-width: $screen-sm-min) {
-    float: left;
-    width: percentage(($columns / $grid-columns));
+	float: left;
+	width: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-sm-column-offset($columns) {
   @media (min-width: $screen-sm-min) {
-    margin-left: percentage(($columns / $grid-columns));
+	margin-left: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-sm-column-push($columns) {
   @media (min-width: $screen-sm-min) {
-    left: percentage(($columns / $grid-columns));
+	left: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-sm-column-pull($columns) {
   @media (min-width: $screen-sm-min) {
-    right: percentage(($columns / $grid-columns));
+	right: percentage(($columns / $grid-columns));
   }
 }
 
@@ -195,23 +195,23 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   padding-right: ($gutter / 2);
 
   @media (min-width: $screen-md-min) {
-    float: left;
-    width: percentage(($columns / $grid-columns));
+	float: left;
+	width: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-md-column-offset($columns) {
   @media (min-width: $screen-md-min) {
-    margin-left: percentage(($columns / $grid-columns));
+	margin-left: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-md-column-push($columns) {
   @media (min-width: $screen-md-min) {
-    left: percentage(($columns / $grid-columns));
+	left: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-md-column-pull($columns) {
   @media (min-width: $screen-md-min) {
-    right: percentage(($columns / $grid-columns));
+	right: percentage(($columns / $grid-columns));
   }
 }
 
@@ -223,23 +223,23 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   padding-right: ($gutter / 2);
 
   @media (min-width: $screen-lg-min) {
-    float: left;
-    width: percentage(($columns / $grid-columns));
+	float: left;
+	width: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-lg-column-offset($columns) {
   @media (min-width: $screen-lg-min) {
-    margin-left: percentage(($columns / $grid-columns));
+	margin-left: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-lg-column-push($columns) {
   @media (min-width: $screen-lg-min) {
-    left: percentage(($columns / $grid-columns));
+	left: percentage(($columns / $grid-columns));
   }
 }
 @mixin make-lg-column-pull($columns) {
   @media (min-width: $screen-lg-min) {
-    right: percentage(($columns / $grid-columns));
+	right: percentage(($columns / $grid-columns));
   }
 }
 
@@ -256,13 +256,13 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   @include container-fixed;
 
   @media (min-width: $screen-sm-min) {
-    width: $container-sm;
+	width: $container-sm;
   }
   @media (min-width: $screen-md-min) {
-    width: $container-md;
+	width: $container-md;
   }
   @media (min-width: $screen-lg-min) {
-    width: $container-lg;
+	width: $container-lg;
   }
 }
 
@@ -335,7 +335,7 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 // [converter] $parent hack
 @mixin responsive-visibility($parent) {
   #{$parent} {
-    display: block !important;
+	display: block !important;
   }
   table#{$parent}  { display: table !important; }
   tr#{$parent}     { display: table-row !important; }
@@ -346,7 +346,7 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 // [converter] $parent hack
 @mixin responsive-invisibility($parent) {
   #{$parent} {
-    display: none !important;
+	display: none !important;
   }
 }
 
@@ -372,7 +372,7 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 
 @at-root {
   @-ms-viewport {
-    width: device-width;
+	width: device-width;
   }
 }
 
@@ -415,17 +415,17 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 }
 .visible-xs-block {
   @media (max-width: $screen-xs-max) {
-    display: block !important;
+	display: block !important;
   }
 }
 .visible-xs-inline {
   @media (max-width: $screen-xs-max) {
-    display: inline !important;
+	display: inline !important;
   }
 }
 .visible-xs-inline-block {
   @media (max-width: $screen-xs-max) {
-    display: inline-block !important;
+	display: inline-block !important;
   }
 }
 
@@ -434,17 +434,17 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 }
 .visible-sm-block {
   @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-    display: block !important;
+	display: block !important;
   }
 }
 .visible-sm-inline {
   @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-    display: inline !important;
+	display: inline !important;
   }
 }
 .visible-sm-inline-block {
   @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-    display: inline-block !important;
+	display: inline-block !important;
   }
 }
 
@@ -453,17 +453,17 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 }
 .visible-md-block {
   @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-    display: block !important;
+	display: block !important;
   }
 }
 .visible-md-inline {
   @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-    display: inline !important;
+	display: inline !important;
   }
 }
 .visible-md-inline-block {
   @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-    display: inline-block !important;
+	display: inline-block !important;
   }
 }
 
@@ -472,17 +472,17 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 }
 .visible-lg-block {
   @media (min-width: $screen-lg-min) {
-    display: block !important;
+	display: block !important;
   }
 }
 .visible-lg-inline {
   @media (min-width: $screen-lg-min) {
-    display: inline !important;
+	display: inline !important;
   }
 }
 .visible-lg-inline-block {
   @media (min-width: $screen-lg-min) {
-    display: inline-block !important;
+	display: inline-block !important;
   }
 }
 
@@ -518,21 +518,21 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   display: none !important;
 
   @media print {
-    display: block !important;
+	display: block !important;
   }
 }
 .visible-print-inline {
   display: none !important;
 
   @media print {
-    display: inline !important;
+	display: inline !important;
   }
 }
 .visible-print-inline-block {
   display: none !important;
 
   @media print {
-    display: inline-block !important;
+	display: inline-block !important;
   }
 }
 

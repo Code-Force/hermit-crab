@@ -1,10 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<<<<<<< Updated upstream
 <div class="home">
 	<div class="container-fluid">
 		<div class="home__grid row">
 			<?php foreach ($stories as $key=>$story) { ?>
+=======
+<div id="home">
+	<?= $header_snippets['quick_nav_html']; ?>
+	<div class="home__grid row">
+		<?php foreach ($stories as $key=>$story) { ?>
+		<div class="home__element">
+>>>>>>> Stashed changes
 			<a href="<?= base_url().'stories/'.$story['slug']; ?>">
 				<div class="grid__story-col col-md-20 col-xs-30">
 					<div class="story-col__story">
