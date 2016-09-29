@@ -16,8 +16,7 @@ class MY_Controller extends CI_Controller
     }
 	function initializeHeaderHTML($data) {
 		$load_views = array(
-            'user_nav_html' => $this->load->view('snippets/user_nav_view', $data, TRUE),
-			'quick_nav_html' => $this->load->view('snippets/quick_nav_view', $data, TRUE)
+            'user_nav_html' => $this->load->view('snippets/user_nav_view', $data, TRUE)
 		);
 		return $load_views;
 	}

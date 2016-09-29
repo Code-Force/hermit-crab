@@ -3,7 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <div class="home">
 	<div class="container-fluid">
-		<?= $header_snippets['quick_nav_html']; ?>
 		<div class="home__grid row">
 			<?php foreach ($stories as $key=>$story) { ?>
 			<a href="<?= base_url().'stories/'.$story['slug']; ?>">
