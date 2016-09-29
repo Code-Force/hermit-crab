@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			{ contentLinks: '<?= base_url(); ?>assets/scripts/vendors/content-tools.min.js' },
 			{ contentEditor: '<?= base_url(); ?>assets/scripts/content-editor.min.js' },
 			{ fontAwesome: 'https://use.fontawesome.com/72cb2b2ecf.js' },
-			{ quickNav: '<?= base_url(); ?>assets/scripts/quick-nav.min.js' }
+			{ quickNav: '<?= base_url(); ?>assets/scripts/quick-nav.js' }
 			<?php
 			if (isset($custom_js)) {
 				foreach ($custom_js as $key => $value) {
@@ -77,4 +77,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 <header class="header">
 	<?= $header_snippets['user_nav_html']; ?>
+
 </header>

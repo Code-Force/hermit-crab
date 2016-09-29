@@ -48,18 +48,8 @@
 
   @include container-fixed;
 
-  @media (min-width: $screen-sm-min) {
-    width: $container-sm;
-  }
-  @media (min-width: $screen-md-min) {
-    width: $container-md;
-  }
-  @media (min-width: $screen-lg-min) {
-    width: $container-lg;
-  }
-  background: $color__white;
+  width: 100%;
   z-index:2;
-  margin-top: 100px;
   #nav-toggle {
 
     @include transition(0.5s ease-in-out);

@@ -13,9 +13,7 @@ function initializeQuickNav () {
 	});
 
 	$('body').on('change', '.filter-category', function() {
-
 		updateStores();
-
 	});
 
 	$('body').on('click', '.clear-filters', function(e) {
@@ -82,6 +80,7 @@ function updateStores() {
 		data: data.substr(0, (data.length - 1)),
 		dataType: "json",
 		success: function(stories){
+			console.log(stories);
 			// TO UPDATE : We need to add lat and long for each story when they are added
 			// This for loop will cycle through the stories that we have in order to get their
 			// geo locations. In the end, we want all stories to have geolocations and this will be a backup.
