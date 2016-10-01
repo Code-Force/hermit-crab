@@ -17,6 +17,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<span class="home-story__location-name"><?= $story['location']; ?></span>
 							</p>
 						</div>
+						<div class="home-story__quick-actions">
+							<div class="home-story__quick-action home-story__quick-action--share">
+								<i class="home-story__action-icon fa fa-share" aria-hidden="true" title="Share"></i>
+							</div>
+							<div class="home-story__quick-action home-story__quick-action--read-later">
+								<i class="home-story__action-icon fa fa-clock-o" aria-hidden="true" title="Read later"></i>
+							</div>
+							<div class="home-story__quick-action home-story__quick-action--description">
+								<i class="home-story__action-icon fa fa-align-left" aria-hidden="true" title="Description"></i>
+							</div>
+							<div class="home-story__quick-action home-story__quick-action--like">
+								<i class="home-story__action-icon fa fa-heart" aria-hidden="true" title="Like"></i>
+							</div>
+						</div>
+						<div class="home-story__description">
+							<p><?= $story['description']; ?></p>
+						</div>
 						<!--<p><?= $story['description']; ?></p>
 						<a href="<?= base_url().'stories/'.$story['slug']; ?>">View Story</a>-->
 					</div>

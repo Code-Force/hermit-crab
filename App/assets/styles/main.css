@@ -5886,12 +5886,29 @@ body {
   float: left;
   padding: 15px;
   width: 33%; }
+  /* line 15, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  .home__element:hover {
+    /*.home-story__description {
+			@include transform(translateY(0%));
+			opacity: 1;
+			visibility: visible;
+		}*/
+    /*&:nth-child(3n+3) {
+			.home-story__description {
+				@include transform(translateY(0%));
+			}
+		}*/ }
+    /* line 26, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+    .home__element:hover .home-story__quick-action {
+      -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      transform: translateY(0%); }
 
-/* line 15, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 31, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story {
   position: relative; }
 
-/* line 18, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 34, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story__image-wrapper {
   width: 100%;
   height: 0;
@@ -5900,7 +5917,7 @@ body {
   position: relative;
   width: 100%; }
 
-/* line 24, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 40, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story__image {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -5911,7 +5928,7 @@ body {
   top: 50%;
   width: 100%; }
 
-/* line 32, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 48, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story__info {
   background: rgba(0, 0, 0, 0.6);
   /* For browsers that do not support gradients */
@@ -5930,26 +5947,26 @@ body {
   top: 0;
   width: 100%; }
 
-/* line 41, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 57, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story__title {
   font-size: 25px;
   font-size: 1.5625rem;
   line-height: 1;
   margin-bottom: 5px; }
 
-/* line 45, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 61, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story__location {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1;
   margin: 0; }
 
-/* line 49, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 65, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story__location-pin {
   color: #F26B57;
   vertical-align: middle; }
 
-/* line 53, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+/* line 69, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
 .home-story__location-name {
   font-size: 12px;
   font-size: 0.75rem;
@@ -5962,6 +5979,112 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
   text-transform: uppercase; }
+
+/* line 75, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__description {
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: all 0.5s ease-in-out 0.2s;
+  -moz-transition: all 0.5s ease-in-out 0.2s;
+  -ms-transition: all 0.5s ease-in-out 0.2s;
+  -o-transition: all 0.5s ease-in-out 0.2s;
+  transition: all 0.5s ease-in-out 0.2s;
+  background-color: #FFFFFF;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-height: 80%;
+  min-height: 40%;
+  opacity: 0;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+  width: 90%;
+  overflow-y: scroll;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-box-shadow: 0px -1px 13px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 13px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 13px -2px rgba(0, 0, 0, 0.75); }
+  /* line 97, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  .home-story__description p {
+    margin: 0; }
+
+/* line 101, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__quick-actions {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 1;
+  bottom: 0;
+  color: #FFFFFF;
+  position: absolute;
+  right: 10px; }
+
+/* line 108, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story__quick-action {
+  -webkit-transform: translateY(170%);
+  -ms-transform: translateY(170%);
+  transform: translateY(170%);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color: #F26B57;
+  border-radius: 50%;
+  color: #FFFFFF;
+  float: right;
+  height: 25px;
+  margin: 0 4px 10px 4px;
+  padding: 5px;
+  position: relative;
+  width: 25px; }
+  /* line 121, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  .home-story__quick-action:nth-child(2) {
+    -webkit-transition: 0.3s ease-in-out 0.05s;
+    -moz-transition: 0.3s ease-in-out 0.05s;
+    -ms-transition: 0.3s ease-in-out 0.05s;
+    -o-transition: 0.3s ease-in-out 0.05s;
+    transition: 0.3s ease-in-out 0.05s; }
+  /* line 124, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  .home-story__quick-action:nth-child(3) {
+    -webkit-transition: 0.3s ease-in-out 0.1s;
+    -moz-transition: 0.3s ease-in-out 0.1s;
+    -ms-transition: 0.3s ease-in-out 0.1s;
+    -o-transition: 0.3s ease-in-out 0.1s;
+    transition: 0.3s ease-in-out 0.1s; }
+  /* line 127, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  .home-story__quick-action:nth-child(4) {
+    -webkit-transition: 0.3s ease-in-out 0.15s;
+    -moz-transition: 0.3s ease-in-out 0.15s;
+    -ms-transition: 0.3s ease-in-out 0.15s;
+    -o-transition: 0.3s ease-in-out 0.15s;
+    transition: 0.3s ease-in-out 0.15s; }
+  /* line 130, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  .home-story__quick-action .home-story__action-icon {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+    top: 50%; }
+  /* line 136, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+  .home-story__quick-action.home-story__quick-action--read-later {
+    font-size: 17px;
+    font-size: 1.0625rem;
+    line-height: 1; }
+    /* line 139, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+    .home-story__quick-action.home-story__quick-action--read-later .home-story__action-icon {
+      -webkit-transform: translate(-50%, -57%);
+      -ms-transform: translate(-50%, -57%);
+      transform: translate(-50%, -57%); }
+
+/* line 144, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_news-feed.scss */
+.home-story {
+  overflow: hidden; }
 
 /* line 1, /Users/edibouazza/CodeForce/hermit-crab/App/assets/styles/pages/_main-nav.scss */
 .header {
