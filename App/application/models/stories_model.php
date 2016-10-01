@@ -69,6 +69,10 @@ class Stories_model extends CI_Model {
                 }
             }
         }
+        if ($search['last_date']) {
+            $date = $search['last_date'];
+            $where .= ' AND s.date_posted < '.$date.')';
+        }
 
         // Query to retrieve multiple stories.
         $query = $this->db->query('SELECT s.*, cou.nicename as country, con.nicename as continent, cat.handle as category, u.folder, username, profile_photo fullname
