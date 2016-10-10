@@ -29,7 +29,26 @@
 	}
 }
 .home-story {
+	@include maintain-ratio(16 9);
 	position: relative;
+
+	&.excerpt {
+		.home-story__description {
+			opacity: 1;
+			visibility: visible;
+		}
+		.home-story__info {
+			background-color: rgba($color__black, 0.7);
+			height: 100%;
+		}
+		.home-story__quick-action--description {
+			color: $color__white;
+
+			.home-story__action-icon {
+				color: $color__feature;
+			}
+		}
+	}
 }
 .home-story__image-wrapper {
 	@include maintain-ratio(16 9);
@@ -46,6 +65,7 @@
 	width: 100%;
 }
 .home-story__info {
+	@include transition(background 0.2s linear);
 	@include gradient--vertical(rgba(0,0,0,.6), rgba(0,0,0,0));
 	color: $color__white;
 	left: 0;
@@ -55,8 +75,12 @@
 	width: 100%;
 }
 .home-story__title {
-	@include font__size(25px);
+	@include font__feature;
+	@include font__size(15px);
+	font-weight: 700;
+	line-height: 1.2;
 	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 .home-story__location {
 	@include font__size(18px);
@@ -72,27 +96,15 @@
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.home-story__description {
-	@include transform(translateY(100%));
-	@include transition(all 0.5s ease-in-out 0.2s);
-	background-color: $color__white;
-	bottom: 0;
-	left: 0;
-	margin: auto;
-	max-height: 80%;
-	min-height: 40%;
-	opacity: 0;
-	padding: 15px;
-	position: absolute;
-	right: 0;
-	visibility: hidden;
-	width: 90%;
-	overflow-y: scroll;
-	@include font--size(16px);
 
-	-webkit-box-shadow: 0px -1px 13px -2px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px -1px 13px -2px rgba(0,0,0,0.75);
-	box-shadow: 0px -1px 13px -2px rgba(0,0,0,0.75);
+.home-story__description {
+	@include font--size(16px);
+	@include transition(all 0.2s linear);
+	border-top: 1px solid white;
+	margin-top: 10px;
+	opacity: 0;
+	padding-top: 10px;
+	visibility: hidden;
 
 	p {
 		margin: 0;
@@ -101,6 +113,7 @@
 .home-story__quick-actions {
 	@include font--size(13px);
 	bottom: 0;
+	cursor: pointer;
 	color: $color__white;
 	position: absolute;
 	right: 10px;
@@ -108,9 +121,9 @@
 .home-story__quick-action {
 	@include transform(translateY(170%));
 	@include transition(0.3s ease-in-out);
-	background-color: $color__feature;
+	background-color: $color__white;
 	border-radius: 50%;
-	color: $color__white;
+	color: $color__black;
 	float: right;
 	height: 25px;
 	margin: 0 4px 10px 4px;
@@ -128,6 +141,7 @@
 		@include transition(0.3s ease-in-out 0.15s);
 	}
 	.home-story__action-icon {
+		@include transition(0.2s linear);
 		@include transform(translate(-50%,-50%));
 		left: 50%;
 		position: absolute;

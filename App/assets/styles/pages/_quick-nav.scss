@@ -12,33 +12,33 @@
   visibility: hidden;
 
   .filter-overlay__the-cover {
-    width:100vw;
-    height: 100vh;
-    background: $color__white;
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
+	width:100vw;
+	height: 100vh;
+	background: $color__white;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
   }
 
   .filter-overlay__the-loader {
-    width: 150px;
-    height: 150px;
-    background: url('../images/quick-nav/loading.gif') center no-repeat;
-    -webkit-background-size: 70px;
-    background-size: 150px;
-    top: 50%;
-    left: 50%;
-    margin-top: -75px;
-    margin-left: -75px;
-    position: absolute;
-    z-index: 2;
+	width: 150px;
+	height: 150px;
+	background: url('../images/quick-nav/loading.gif') center no-repeat;
+	-webkit-background-size: 70px;
+	background-size: 150px;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+	position: absolute;
+	z-index: 2;
   }
   &.show {
-    opacity: 1;
-    visibility: visible;
+	opacity: 1;
+	visibility: visible;
   }
 }
 #quick-nav {
@@ -52,74 +52,73 @@
   z-index:2;
   #nav-toggle {
 
-    @include transition(0.5s ease-in-out);
-    @include transform(rotate(180deg));
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    background: url('../images/quick-nav/open-arrow.svg') center no-repeat;
-    -webkit-background-size: 70px;
-    background-size: 70px;
-    right: -40px;
-    top: 50%;
-    border-radius: 50%;
-    margin-top: -35px;
-    cursor: pointer;
+	@include transition(0.5s ease-in-out);
+	@include transform(rotate(180deg));
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	background: url('../images/quick-nav/open-arrow.svg') center no-repeat;
+	-webkit-background-size: 70px;
+	background-size: 70px;
+	right: -40px;
+	top: 50%;
+	border-radius: 50%;
+	margin-top: -35px;
+	cursor: pointer;
 
   }
 
 /*  &.open {
-    @include transform(translateX(0));
+	@include transform(translateX(0));
 
-    #nav-toggle {
-      @include transform(rotate(0deg));
-    }
+	#nav-toggle {
+	  @include transform(rotate(0deg));
+	}
 
   }*/
 
   h1 {
-    @include font__primary;
-    @include font-_size(30px);
+	@include font__primary;
+	@include font-_size(30px);
   }
 
   .filters {
-    .filters__mood-container {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 20px;
-      .categories {
-        text-align: center;
-        width:100%;
-      }
-      .clear-filters {
-        clear: both;
-      }
-    }
+	.filters__mood-container {
+	  width: 100%;
+	  box-sizing: border-box;
+	  .categories {
+		text-align: center;
+		width:100%;
+	  }
+	  .clear-filters {
+		clear: both;
+	  }
+	}
   }
 
   input[type=checkbox] {
-    display:none;
+	display:none;
   }
 
   input[type=checkbox] + label
   {
-    height: 32px;
-    width: 32px;
-    display:inline-block;
-    padding: 0 0 0 0px;
-    cursor: pointer;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+	height: 32px;
+	width: 32px;
+	display:inline-block;
+	padding: 0 0 0 0px;
+	cursor: pointer;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
   }
   input[type=checkbox]:checked + label
   {
-    background: #0080FF;
-    height: 32px;
-    width: 32px;
-    display:inline-block;
-    padding: 0 0 0 0px;
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
+	background: #0080FF;
+	height: 32px;
+	width: 32px;
+	display:inline-block;
+	padding: 0 0 0 0px;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
   }
 }
 
